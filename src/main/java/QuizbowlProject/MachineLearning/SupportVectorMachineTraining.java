@@ -57,8 +57,12 @@ public class SupportVectorMachineTraining {
 		 C_SVC cSvm = new C_SVC();
 		 MultiClassificationSVM svm = new MultiClassificationSVM(cSvm);
 		 MultiClassModel model = svm.train(problem, parameter);
-		 
 		
+	}
+	
+	public void classify(MultiClassModel model, SparseVector tossup) {
+	    int tossupType = (Integer) model.predictLabel(tossup);
+	    System.out.println(tossupType);
 	}
 	
 	public static void populateProblem(MutableMultiClassProblemImpl problem) throws SAXException, IOException, TikaException {
