@@ -1,0 +1,55 @@
+Manifest-Version: 1.0
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.tika.batch
+Built-By: colejackes
+Bnd-LastModified: 1473086941054
+Specification-Title: Apache Tika batch
+Implementation-Vendor-Id: org.apache.tika
+Bundle-DocURL: http://tika.apache.org/
+Import-Package: javax.xml.parsers,org.apache.commons.cli;version="[1.3
+ ,2)",org.apache.commons.compress.archivers.zip;version="[1.11,2)",org
+ .apache.commons.compress.compressors.bzip2;version="[1.11,2)",org.apa
+ che.commons.io;version="[1.4,2)",org.apache.tika.config;version="[1.0
+ ,2)",org.apache.tika.exception;version="[1.0,2)",org.apache.tika.extr
+ actor;version="[1.0,2)",org.apache.tika.io;version="[1.0,2)",org.apac
+ he.tika.metadata;version="[1.0,2)",org.apache.tika.metadata.serializa
+ tion,org.apache.tika.parser;version="[1.0,2)",org.apache.tika.sax;ver
+ sion="[1.0,2)",org.apache.tika.utils;version="[1.0,2)",org.slf4j;vers
+ ion="[1.7,2)",org.w3c.dom,org.xml.sax,org.xml.sax.helpers
+Export-Package: org.apache.tika.batch;uses:="org.apache.tika.config,or
+ g.apache.tika.parser,org.slf4j,org.apache.commons.io,org.apache.tika.
+ metadata,org.xml.sax.helpers,org.xml.sax,org.apache.tika.sax,org.apac
+ he.tika.extractor,org.apache.tika.util",org.apache.tika.batch.builder
+ s;uses:="org.apache.tika.batch,org.w3c.dom,javax.xml.parsers,org.apac
+ he.tika.io,org.apache.tika.parser,org.xml.sax,org.apache.tika.excepti
+ on,org.apache.tika.util,org.apache.commons.cli,org.apache.tika.sax",o
+ rg.apache.tika.batch.fs;uses:="org.apache.tika.batch,org.apache.tika.
+ metadata,org.slf4j,org.apache.tika.config,org.apache.commons.io,org.a
+ pache.tika.sax,org.apache.tika.parser,org.xml.sax,org.apache.commons.
+ cli,org.apache.tika.batch.builders,org.apache.tika.io,org.apache.tika
+ .extractor,org.apache.tika.util,org.apache.commons.compress.archivers
+ .zip,org.apache.commons.compress.compressors.bzip2,org.xml.sax.helper
+ s,org.apache.tika.utils,org.apache.tika.metadata.serialization",org.a
+ pache.tika.batch.fs.builders;uses:="org.apache.tika.batch.fs,org.apac
+ he.tika.sax,org.apache.tika.batch,org.apache.tika.config,org.w3c.dom,
+ org.apache.tika.batch.builders,org.apache.tika.util,org.apache.tika.e
+ xtractor",org.apache.tika.batch.fs.strawman;uses:="org.slf4j,org.apac
+ he.commons.io",org.apache.tika.util;uses:="org.w3c.dom"
+Bundle-Name: Apache Tika batch
+Bundle-Activator: org.apache.tika.config.TikaActivator
+Bundle-Description: Apache Tika is a toolkit for detecting and extract
+ ing metadata and    structured text content from various documents us
+ ing existing parser    libraries.
+Implementation-Title: Apache Tika batch
+Implementation-Version: 1.13
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Specification-Vendor: The Apache Software Foundation
+Bundle-Vendor: The Apache Software Foundation
+Tool: Bnd-1.15.0
+Implementation-Vendor: The Apache Software Foundation
+Bundle-Version: 1.13.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_45
+Specification-Version: 1.13
+

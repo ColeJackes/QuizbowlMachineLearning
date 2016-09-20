@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.tika.batch.fs.BatchProcessTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 62.926 sec - in org.apache.tika.batch.fs.BatchProcessTest

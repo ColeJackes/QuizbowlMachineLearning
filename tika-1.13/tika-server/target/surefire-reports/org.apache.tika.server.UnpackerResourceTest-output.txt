@@ -1,0 +1,2919 @@
+Sep 05, 2016 10:52:09 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:9998/
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} + org.apache.cxf.transport.http_jetty.JettyHTTPHandler@13c3c1e1 as handler
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 + o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@13c3c1e1
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@13c3c1e1
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@13c3c1e1
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/unpack
+Sep 05, 2016 10:52:09 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/translate/all/org.apache.tika.language.translate.Lingo24Translator/en)
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@1e63ec0b9 pairs: {PUT /unpack HTTP/1.1: null}{Content-Type: application/xml}{Accept: application/zip}{User-Agent: Apache CXF 3.0.3}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}{Transfer-Encoding: chunked}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 4323/4323
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: REQUEST /unpack on AsyncHttpConnection@2095df72,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=6,l=7,c=-2},r=71
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: scope null||/unpack @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: context=||/unpack @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.apache.tika.server.resource.TikaResource logRequest
+INFO: unpack (autodetecting type)
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 5907/5907
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@3b9568785 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/zip}{Date: Mon, 05 Sep 2016 14:52:09 GMT}{Transfer-Encoding: chunked}{Server: Jetty(8.1.15.v20140411)}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: RESPONSE /unpack  200 handled=true
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Enabled read interest SCEP@19d35c2{l(/127.0.0.1:53761)<->r(/127.0.0.1:9998),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=4w}-{AsyncHttpConnection@2095df72,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=7,c=-2},r=71}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 - o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@13c3c1e1
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@13c3c1e1
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@13c3c1e1
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter info
+INFO: stopped o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} - org.apache.cxf.transport.http_jetty.JettyHTTPHandler@13c3c1e1 as handler
+Sep 05, 2016 10:52:09 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:9998/
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} + org.apache.cxf.transport.http_jetty.JettyHTTPHandler@14f5da2c as handler
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 + o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@14f5da2c
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@14f5da2c
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@14f5da2c
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/unpack
+Sep 05, 2016 10:52:09 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/unpack)
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@239b0f9d9 pairs: {PUT /unpack HTTP/1.1: null}{Content-Type: xxx/xxx}{Accept: */*}{User-Agent: Apache CXF 3.0.3}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}{Transfer-Encoding: chunked}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 4303/4303
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: REQUEST /unpack on AsyncHttpConnection@2095df72,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=6,l=7,c=-2},r=72
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: scope null||/unpack @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: context=||/unpack @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.apache.tika.server.resource.TikaResource logRequest
+INFO: unpack (xxx/xxx)
+Sep 05, 2016 10:52:09 AM org.apache.tika.server.resource.TikaResource parse
+WARNING: unpack: Text extraction failed
+org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.server.resource.TikaResource$1@6b197f10
+	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:282)
+	at org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:120)
+	at org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:285)
+	at org.apache.tika.server.resource.UnpackerResource.process(UnpackerResource.java:141)
+	at org.apache.tika.server.resource.UnpackerResource.unpack(UnpackerResource.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:181)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:97)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:200)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:99)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:982)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1043)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:957)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.ws.rs.WebApplicationException: HTTP 415 Unsupported Media Type
+	at org.apache.tika.server.resource.TikaResource$1.parse(TikaResource.java:115)
+	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)
+	... 36 more
+
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 5791/5791
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: RESPONSE /unpack  415 handled=true
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@619bfe294 pairs: {null: HTTP/1.1 415 Unsupported Media Type}{Content-Length: 0}{Date: Mon, 05 Sep 2016 14:52:09 GMT}{Server: Jetty(8.1.15.v20140411)}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Enabled read interest SCEP@19d35c2{l(/127.0.0.1:53761)<->r(/127.0.0.1:9998),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2095df72,g=HttpGenerator{s=4,h=0,b=-1,c=-1},p=HttpParser{s=0,l=7,c=-2},r=72}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 - o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@14f5da2c
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@14f5da2c
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@14f5da2c
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter info
+INFO: stopped o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} - org.apache.cxf.transport.http_jetty.JettyHTTPHandler@14f5da2c as handler
+Sep 05, 2016 10:52:09 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:9998/
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} + org.apache.cxf.transport.http_jetty.JettyHTTPHandler@25748410 as handler
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 + o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@25748410
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@25748410
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@25748410
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/unpack/all
+Sep 05, 2016 10:52:09 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/unpack)
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@4264b2409 pairs: {PUT /unpack/all HTTP/1.1: null}{Content-Type: application/xml}{Accept: application/zip}{User-Agent: Apache CXF 3.0.3}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}{Transfer-Encoding: chunked}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: REQUEST /unpack/all on AsyncHttpConnection@2095df72,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=6,l=7,c=-2},r=73
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: scope null||/unpack/all @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: context=||/unpack/all @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.apache.tika.server.resource.TikaResource logRequest
+INFO: unpack/all (autodetecting type)
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 3329/3329
+Sep 05, 2016 10:52:09 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream used: http://localhost:9998/unpack/all
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@5b04476e5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/zip}{Date: Mon, 05 Sep 2016 14:52:09 GMT}{Content-Length: 947}{Server: Jetty(8.1.15.v20140411)}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: RESPONSE /unpack/all  200 handled=true
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Enabled read interest SCEP@19d35c2{l(/127.0.0.1:53761)<->r(/127.0.0.1:9998),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2095df72,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=7,c=-2},r=73}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 - o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@25748410
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@25748410
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@25748410
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter info
+INFO: stopped o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} - org.apache.cxf.transport.http_jetty.JettyHTTPHandler@25748410 as handler
+Sep 05, 2016 10:52:09 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:9998/
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} + org.apache.cxf.transport.http_jetty.JettyHTTPHandler@62435e70 as handler
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 + o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@62435e70
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@62435e70
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@62435e70
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/unpack
+Sep 05, 2016 10:52:09 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/unpack/all)
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@38be305c9 pairs: {PUT /unpack HTTP/1.1: null}{Content-Type: application/xml}{Accept: application/zip}{User-Agent: Apache CXF 3.0.3}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}{Transfer-Encoding: chunked}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 4323/4323
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: REQUEST /unpack on AsyncHttpConnection@2095df72,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=6,l=7,c=-2},r=74
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: scope null||/unpack @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: context=||/unpack @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.apache.tika.server.resource.TikaResource logRequest
+INFO: unpack (autodetecting type)
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 2262/2262
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@269f4bad5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/zip}{Date: Mon, 05 Sep 2016 14:52:09 GMT}{Transfer-Encoding: chunked}{Server: Jetty(8.1.15.v20140411)}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: RESPONSE /unpack  200 handled=true
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Enabled read interest SCEP@19d35c2{l(/127.0.0.1:53761)<->r(/127.0.0.1:9998),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=4w}-{AsyncHttpConnection@2095df72,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=7,c=-2},r=74}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 - o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@62435e70
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@62435e70
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@62435e70
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter info
+INFO: stopped o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} - org.apache.cxf.transport.http_jetty.JettyHTTPHandler@62435e70 as handler
+Sep 05, 2016 10:52:09 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:9998/
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} + org.apache.cxf.transport.http_jetty.JettyHTTPHandler@1c80e49b as handler
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 + o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@1c80e49b
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@1c80e49b
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@1c80e49b
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/unpack
+Sep 05, 2016 10:52:09 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/unpack)
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 05, 2016 10:52:09 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@15c251539 pairs: {PUT /unpack HTTP/1.1: null}{Content-Type: application/xml}{Accept: application/zip}{User-Agent: Apache CXF 3.0.3}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}{Transfer-Encoding: chunked}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 4323/4323
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: REQUEST /unpack on AsyncHttpConnection@2095df72,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=6,l=7,c=-2},r=75
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: scope null||/unpack @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: context=||/unpack @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:09 AM org.apache.tika.server.resource.TikaResource logRequest
+INFO: unpack (autodetecting type)
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:09 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 1027/1027
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@1252b9615 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/zip}{Date: Mon, 05 Sep 2016 14:52:10 GMT}{Transfer-Encoding: chunked}{Server: Jetty(8.1.15.v20140411)}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: RESPONSE /unpack  200 handled=true
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Enabled read interest SCEP@19d35c2{l(/127.0.0.1:53761)<->r(/127.0.0.1:9998),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=4w}-{AsyncHttpConnection@2095df72,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=7,c=-2},r=75}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 - o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@1c80e49b
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@1c80e49b
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@1c80e49b
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter info
+INFO: stopped o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} - org.apache.cxf.transport.http_jetty.JettyHTTPHandler@1c80e49b as handler
+Sep 05, 2016 10:52:10 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:9998/
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} + org.apache.cxf.transport.http_jetty.JettyHTTPHandler@773cbf4f as handler
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 + o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@773cbf4f
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@773cbf4f
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@773cbf4f
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/unpack
+Sep 05, 2016 10:52:10 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/unpack)
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@665e92899 pairs: {PUT /unpack HTTP/1.1: null}{Content-Type: application/msword}{Accept: application/zip}{User-Agent: Apache CXF 3.0.3}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}{Transfer-Encoding: chunked}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: REQUEST /unpack on AsyncHttpConnection@2095df72,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=6,l=7,c=-2},r=76
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: scope null||/unpack @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: context=||/unpack @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.apache.tika.server.resource.TikaResource logRequest
+INFO: unpack (application/msword)
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 3973/3973
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@7d3430a75 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/zip}{Date: Mon, 05 Sep 2016 14:52:10 GMT}{Transfer-Encoding: chunked}{Server: Jetty(8.1.15.v20140411)}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: RESPONSE /unpack  200 handled=true
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Enabled read interest SCEP@19d35c2{l(/127.0.0.1:53761)<->r(/127.0.0.1:9998),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=4w}-{AsyncHttpConnection@2095df72,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=7,c=-2},r=76}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 - o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@773cbf4f
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@773cbf4f
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@773cbf4f
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter info
+INFO: stopped o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} - org.apache.cxf.transport.http_jetty.JettyHTTPHandler@773cbf4f as handler
+Sep 05, 2016 10:52:10 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:9998/
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} + org.apache.cxf.transport.http_jetty.JettyHTTPHandler@64df9a61 as handler
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 + o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@64df9a61
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@64df9a61
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@64df9a61
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/unpack
+Sep 05, 2016 10:52:10 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/unpack)
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@e2607669 pairs: {PUT /unpack HTTP/1.1: null}{Content-Type: application/msword}{Accept: application/zip}{User-Agent: Apache CXF 3.0.3}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}{Transfer-Encoding: chunked}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 4326/4326
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: REQUEST /unpack on AsyncHttpConnection@2095df72,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=6,l=7,c=-2},r=77
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: scope null||/unpack @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: context=||/unpack @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.apache.tika.server.resource.TikaResource logRequest
+INFO: unpack (application/msword)
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 5391/5391
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@2c3dec305 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/zip}{Date: Mon, 05 Sep 2016 14:52:10 GMT}{Transfer-Encoding: chunked}{Server: Jetty(8.1.15.v20140411)}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: RESPONSE /unpack  200 handled=true
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Enabled read interest SCEP@19d35c2{l(/127.0.0.1:53761)<->r(/127.0.0.1:9998),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=4w}-{AsyncHttpConnection@2095df72,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=7,c=-2},r=77}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 - o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@64df9a61
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@64df9a61
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@64df9a61
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter info
+INFO: stopped o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} - org.apache.cxf.transport.http_jetty.JettyHTTPHandler@64df9a61 as handler
+Sep 05, 2016 10:52:10 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:9998/
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} + org.apache.cxf.transport.http_jetty.JettyHTTPHandler@65aa6596 as handler
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 + o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@65aa6596
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@65aa6596
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@65aa6596
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/unpack/all
+Sep 05, 2016 10:52:10 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/unpack)
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@419a20a69 pairs: {PUT /unpack/all HTTP/1.1: null}{Content-Type: application/msword}{Accept: application/zip}{User-Agent: Apache CXF 3.0.3}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}{Transfer-Encoding: chunked}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: REQUEST /unpack/all on AsyncHttpConnection@2095df72,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=6,l=7,c=-2},r=78
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: scope null||/unpack/all @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: context=||/unpack/all @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.apache.tika.server.resource.TikaResource logRequest
+INFO: unpack/all (application/msword)
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 3977/3977
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@533377b5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/zip}{Date: Mon, 05 Sep 2016 14:52:10 GMT}{Transfer-Encoding: chunked}{Server: Jetty(8.1.15.v20140411)}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: RESPONSE /unpack/all  200 handled=true
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Enabled read interest SCEP@19d35c2{l(/127.0.0.1:53761)<->r(/127.0.0.1:9998),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=4w}-{AsyncHttpConnection@2095df72,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=7,c=-2},r=78}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 - o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@65aa6596
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@65aa6596
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@65aa6596
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter info
+INFO: stopped o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} - org.apache.cxf.transport.http_jetty.JettyHTTPHandler@65aa6596 as handler
+Sep 05, 2016 10:52:10 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:9998/
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} + org.apache.cxf.transport.http_jetty.JettyHTTPHandler@3f28bd56 as handler
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 + o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@3f28bd56
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@3f28bd56
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@3f28bd56
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/unpack
+Sep 05, 2016 10:52:10 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/unpack/all)
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@19fe46449 pairs: {PUT /unpack HTTP/1.1: null}{Content-Type: application/msword}{Accept: application/zip}{User-Agent: Apache CXF 3.0.3}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}{Transfer-Encoding: chunked}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 230/230
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: REQUEST /unpack on AsyncHttpConnection@2095df72,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=6,l=7,c=-2},r=79
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: scope null||/unpack @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: context=||/unpack @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.apache.tika.server.resource.TikaResource logRequest
+INFO: unpack (application/msword)
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 3743/3743
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@21d8bcbe5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/zip}{Date: Mon, 05 Sep 2016 14:52:10 GMT}{Transfer-Encoding: chunked}{Server: Jetty(8.1.15.v20140411)}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: RESPONSE /unpack  200 handled=true
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Enabled read interest SCEP@19d35c2{l(/127.0.0.1:53761)<->r(/127.0.0.1:9998),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=4w}-{AsyncHttpConnection@2095df72,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=7,c=-2},r=79}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 - o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@3f28bd56
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@3f28bd56
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@3f28bd56
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter info
+INFO: stopped o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} - org.apache.cxf.transport.http_jetty.JettyHTTPHandler@3f28bd56 as handler
+Sep 05, 2016 10:52:10 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:9998/
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} + org.apache.cxf.transport.http_jetty.JettyHTTPHandler@267f474e as handler
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 + o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@267f474e
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@267f474e
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@267f474e
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/unpack
+Sep 05, 2016 10:52:10 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/unpack)
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@28276e509 pairs: {PUT /unpack HTTP/1.1: null}{Content-Type: application/msword}{Accept: application/x-tar}{User-Agent: Apache CXF 3.0.3}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}{Transfer-Encoding: chunked}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: REQUEST /unpack on AsyncHttpConnection@2095df72,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=6,l=7,c=-2},r=80
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: scope null||/unpack @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: context=||/unpack @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.apache.tika.server.resource.TikaResource logRequest
+INFO: unpack (application/msword)
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 6144/6144
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 3975/3975
+Sep 05, 2016 10:52:10 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@62e70ea35 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/x-tar}{Date: Mon, 05 Sep 2016 14:52:10 GMT}{Transfer-Encoding: chunked}{Server: Jetty(8.1.15.v20140411)}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: RESPONSE /unpack  200 handled=true
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Enabled read interest SCEP@19d35c2{l(/127.0.0.1:53761)<->r(/127.0.0.1:9998),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=4w}-{AsyncHttpConnection@2095df72,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=7,c=-2},r=80}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 - o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@267f474e
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@267f474e
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@267f474e
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter info
+INFO: stopped o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:52:10 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} - org.apache.cxf.transport.http_jetty.JettyHTTPHandler@267f474e as handler

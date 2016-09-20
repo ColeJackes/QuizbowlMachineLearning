@@ -1,0 +1,10 @@
+/Users/colejackes/Desktop/Development/MachineLearning/tika-1.13/tika-xmp/src/main/java/org/apache/tika/xmp/convert/AbstractConverter.java
+/Users/colejackes/Desktop/Development/MachineLearning/tika-1.13/tika-xmp/src/main/java/org/apache/tika/xmp/XMPMetadata.java
+/Users/colejackes/Desktop/Development/MachineLearning/tika-1.13/tika-xmp/src/main/java/org/apache/tika/xmp/convert/ITikaToXMPConverter.java
+/Users/colejackes/Desktop/Development/MachineLearning/tika-1.13/tika-xmp/src/main/java/org/apache/tika/xmp/convert/MSOfficeXMLConverter.java
+/Users/colejackes/Desktop/Development/MachineLearning/tika-1.13/tika-xmp/src/main/java/org/apache/tika/xmp/convert/MSOfficeBinaryConverter.java
+/Users/colejackes/Desktop/Development/MachineLearning/tika-1.13/tika-xmp/src/main/java/org/apache/tika/xmp/convert/GenericConverter.java
+/Users/colejackes/Desktop/Development/MachineLearning/tika-1.13/tika-xmp/src/main/java/org/apache/tika/xmp/convert/Namespace.java
+/Users/colejackes/Desktop/Development/MachineLearning/tika-1.13/tika-xmp/src/main/java/org/apache/tika/xmp/convert/OpenDocumentConverter.java
+/Users/colejackes/Desktop/Development/MachineLearning/tika-1.13/tika-xmp/src/main/java/org/apache/tika/xmp/convert/TikaToXMP.java
+/Users/colejackes/Desktop/Development/MachineLearning/tika-1.13/tika-xmp/src/main/java/org/apache/tika/xmp/convert/RTFConverter.java

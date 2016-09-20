@@ -1,0 +1,3 @@
+org/apache/tika/langdetect/LanguageDetectorTest.class
+org/apache/tika/langdetect/OptimaizeLangDetectorTest.class
+org/apache/tika/langdetect/TextLangDetectorTest.class

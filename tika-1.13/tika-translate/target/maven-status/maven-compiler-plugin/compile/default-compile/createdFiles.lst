@@ -1,0 +1,8 @@
+org/apache/tika/language/translate/MicrosoftTranslator.class
+org/apache/tika/language/translate/Lingo24Translator.class
+org/apache/tika/language/translate/GoogleTranslator.class
+org/apache/tika/language/translate/YandexTranslator.class
+org/apache/tika/language/translate/AbstractTranslator.class
+org/apache/tika/language/translate/ExternalTranslator.class
+org/apache/tika/language/translate/CachedTranslator.class
+org/apache/tika/language/translate/MosesTranslator.class

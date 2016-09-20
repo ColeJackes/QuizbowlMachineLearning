@@ -1,0 +1,81 @@
+Manifest-Version: 1.0
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.tika.core
+Built-By: colejackes
+Bnd-LastModified: 1473086426598
+Specification-Title: Apache Tika core
+Implementation-Vendor-Id: org.apache.tika
+Bundle-DocURL: http://tika.apache.org/
+Import-Package: javax.crypto,javax.xml,javax.xml.namespace,javax.xml.p
+ arsers,javax.xml.stream,javax.xml.transform,javax.xml.transform.dom,j
+ avax.xml.transform.sax,javax.xml.transform.stream,org.osgi.framework;
+ version="[1.3,2)";resolution:=optional,org.osgi.util.tracker;version=
+ "[1.3,2)";resolution:=optional,org.w3c.dom,org.xml.sax,org.xml.sax.he
+ lpers
+Export-Package: org.apache.tika.concurrent,org.apache.tika.config;uses
+ :="org.osgi.framework,org.apache.tika.parser,org.apache.tika.detect,o
+ rg.osgi.util.tracker,org.w3c.dom,org.apache.tika.mime,org.apache.tika
+ .exception,org.apache.tika.concurrent,org.apache.tika.language.transl
+ ate,javax.xml.parsers,org.xml.sax,javax.xml.transform.dom,javax.xml.t
+ ransform,javax.xml.transform.stream";version="1.0.0",org.apache.tika.
+ detect;uses:="org.apache.tika.metadata,org.apache.tika.config,org.apa
+ che.tika.utils,org.xml.sax,org.apache.tika.exception,org.apache.tika.
+ mime,org.apache.tika.io,org.xml.sax.helpers,javax.xml.namespace,javax
+ .xml,javax.xml.parsers,org.apache.tika.sax";version="1.0.0",org.apach
+ e.tika.embedder;uses:="org.apache.tika.metadata,org.apache.tika.parse
+ r,org.apache.tika.mime,org.apache.tika.exception,org.apache.tika.io,o
+ rg.apache.tika.parser.external",org.apache.tika.exception;version="1.
+ 0.0",org.apache.tika.extractor;uses:="org.apache.tika.exception,org.a
+ pache.tika.io,org.apache.tika.metadata,org.xml.sax,org.apache.tika.mi
+ me,org.apache.tika.parser,org.apache.tika.detect,org.xml.sax.helpers,
+ org.apache.tika.config,org.apache.tika.sax";version="1.0.0",org.apach
+ e.tika.fork;uses:="org.xml.sax,org.xml.sax.helpers,org.apache.tika.ex
+ ception,org.apache.tika.io,org.apache.tika.metadata,org.apache.tika.p
+ arser,org.apache.tika.mime,org.apache.tika.sax";version="1.0.0",org.a
+ pache.tika.io;uses:="org.apache.tika.exception,org.apache.tika.metada
+ ta";version="1.0.0",org.apache.tika.language.detect;uses:="org.apache
+ .tika.config,org.apache.tika.sax",org.apache.tika.language;uses:="org
+ .apache.tika.exception,org.apache.tika.sax",org.apache.tika.language.
+ translate;uses:="org.apache.tika.config,org.apache.tika.exception",or
+ g.apache.tika.metadata;uses:="org.apache.tika.utils";version="1.0.0",
+ org.apache.tika.mime;uses:="org.apache.tika.metadata,org.apache.tika.
+ detect,org.apache.tika.exception,javax.xml.namespace,org.apache.tika,
+ org.w3c.dom,javax.xml,org.xml.sax.helpers,javax.xml.transform.sax,jav
+ ax.xml.parsers,javax.xml.transform.dom,javax.xml.transform,org.xml.sa
+ x";version="1.2.0",org.apache.tika;uses:="org.apache.tika.config,org.
+ apache.tika.detect,org.apache.tika.mime,org.apache.tika.io,org.apache
+ .tika.sax,org.apache.tika.metadata,org.apache.tika.parser,org.xml.sax
+ ,org.apache.tika.language.translate,org.apache.tika.exception";versio
+ n="1.0.0",org.apache.tika.parser;uses:="org.apache.tika.metadata,org.
+ xml.sax,org.apache.tika.exception,org.apache.tika.config,org.apache.t
+ ika.detect,org.apache.tika.mime,org.apache.tika.io,org.apache.tika.sa
+ x,javax.crypto,org.apache.tika.utils,org.xml.sax.helpers,javax.xml.pa
+ rsers,javax.xml.stream,javax.xml";version="1.0.0",org.apache.tika.par
+ ser.external;uses:="org.apache.tika.parser,org.apache.tika.exception,
+ org.apache.tika.mime,org.apache.tika.io,org.apache.tika.metadata,org.
+ apache.tika.sax,org.xml.sax,org.w3c.dom,javax.xml.parsers,org.apache.
+ tika.config";version="1.0.0",org.apache.tika.sax;uses:="org.xml.sax.h
+ elpers,org.xml.sax,org.apache.tika.sax.xpath,org.apache.tika.metadata
+ ,javax.xml.namespace,org.apache.tika.io,org.apache.tika.exception";ve
+ rsion="1.0.0",org.apache.tika.sax.xpath;uses:="org.xml.sax.helpers,or
+ g.xml.sax,org.apache.tika.sax";version="1.0.0",org.apache.tika.utils;
+ uses:="org.apache.tika.parser,org.apache.tika.exception";version="1.0
+ .0"
+Bundle-Name: Apache Tika core
+Bundle-Activator: org.apache.tika.config.TikaActivator
+Bundle-Description: This is the core Apache Tika™ toolkit library fr
+ om which all other modules inherit functionality. It also    includes
+  the core facades for the Tika API.
+Implementation-Title: Apache Tika core
+Implementation-Version: 1.13
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Specification-Vendor: The Apache Software Foundation
+Bundle-Vendor: The Apache Software Foundation
+Tool: Bnd-1.15.0
+Implementation-Vendor: The Apache Software Foundation
+Bundle-Version: 1.13.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_45
+Specification-Version: 1.13
+

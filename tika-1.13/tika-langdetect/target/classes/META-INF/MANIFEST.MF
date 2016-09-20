@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Bundle-Description: This is the language detection Apache Tika™ tool
+ kit.
+Implementation-Title: Apache Tika language detection
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.tika.langdetect
+Implementation-Version: 1.13
+Built-By: colejackes
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1473086953782
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: Apache Tika language detection
+Implementation-Vendor-Id: org.apache.tika
+Bundle-DocURL: http://tika.apache.org/
+Bundle-Vendor: The Apache Software Foundation
+Import-Package: com.google.common.base;version="[16.0,17)";resolution:
+ =optional,com.google.gson;resolution:=optional,com.optimaize.langdete
+ ct;resolution:=optional,com.optimaize.langdetect.i18n;resolution:=opt
+ ional,com.optimaize.langdetect.ngram;resolution:=optional,com.optimai
+ ze.langdetect.profiles;resolution:=optional,javax.ws.rs.core;version=
+ "[2.0,3)";resolution:=optional,org.apache.cxf.jaxrs.client;version="[
+ 3.0,4)";resolution:=optional,org.apache.tika.language.detect,org.apac
+ he.tika.parser.internal,org.w3c.dom
+Tool: Bnd-1.15.0
+Implementation-Vendor: The Apache Software Foundation
+Export-Package: org.apache.tika.langdetect;uses:="com.optimaize.langde
+ tect,com.optimaize.langdetect.profiles,com.google.common.base,com.opt
+ imaize.langdetect.i18n,com.optimaize.langdetect.ngram,org.apache.tika
+ .language.detect,org.apache.cxf.jaxrs.client,javax.ws.rs.core,com.goo
+ gle.gson"
+Bundle-Version: 1.13.0
+Bundle-Name: Apache Tika language detection
+Bundle-Activator: org.apache.tika.parser.internal.Activator
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_45
+Specification-Version: 1.13
+

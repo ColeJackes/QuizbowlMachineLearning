@@ -1,0 +1,520 @@
+Sep 05, 2016 10:51:31 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:9998/
+Sep 05, 2016 10:51:31 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} + org.apache.cxf.transport.http_jetty.JettyHTTPHandler@48075da3 as handler
+Sep 05, 2016 10:51:31 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 + o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:51:31 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:31 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@48075da3
+Sep 05, 2016 10:51:31 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@48075da3
+Sep 05, 2016 10:51:31 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@48075da3
+Sep 05, 2016 10:51:31 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:31 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:31 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/language/stream
+Sep 05, 2016 10:51:31 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/detect/stream)
+Sep 05, 2016 10:51:31 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 05, 2016 10:51:31 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@7a35b0f59 pairs: {PUT /language/stream HTTP/1.1: null}{Content-Type: text/plain}{Accept: text/plain}{User-Agent: Apache CXF 3.0.3}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}{Content-Length: 17}
+Sep 05, 2016 10:51:31 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 235/235
+Sep 05, 2016 10:51:31 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: REQUEST /language/stream on AsyncHttpConnection@69a8ecbf,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=2,l=2,c=17},r=4
+Sep 05, 2016 10:51:31 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: scope null||/language/stream @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:31 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: context=||/language/stream @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: T(T): so:0.00114 sk:0.00166 sw:0.00394 nl:0.00199 ms:0.00422 an:0.00178 da:0.00201 he:0.00055 bg:0.00037 ca:0.00191 oc:0.00116 et:0.00274 af:0.00152 fi:0.00243 ro:0.00187 de:0.00279 el:0.00042 br:0.00167 tl:0.00256 lt:0.00182 hu:0.00178 is:0.00117 no:0.00229 pt:0.00192 ta:0.00029 gl:0.00221 mt:0.00230 sq:0.00199 cy:0.00272 uk:0.00020 ml:0.00027 bn:0.00030 mk:0.00031 ga:0.00431 fr:0.00178 it:0.00178 te:0.00033 tr:0.00303 ru:0.00041 pa:0.00040 pl:0.00159 th:0.00054 cs:0.00169 hr:0.00208 sv:0.00230 eu:0.00155 id:0.00357 lv:0.00214 sl:0.00135 ast:0.00184 ht:0.00122 es:0.00188 en:0.00537 kn:0.00013 vi:0.00758
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: h(h): so:0.03329 sk:0.02191 sw:0.02468 nl:0.02061 ms:0.02768 an:0.00977 da:0.01237 he:0.00140 bg:0.00109 ca:0.00592 oc:0.01118 et:0.01589 af:0.01137 fi:0.01576 ro:0.00572 de:0.03587 el:0.00121 br:0.03310 tl:0.01365 lt:0.00251 hu:0.01199 is:0.01515 no:0.01110 pt:0.00985 ta:0.00116 gl:0.00988 mt:0.01334 sq:0.04204 cy:0.03061 uk:0.00052 ml:0.00178 bn:0.00154 mk:0.00097 ga:0.06855 fr:0.01044 it:0.00811 gu:0.00017 te:0.00225 tr:0.00934 ru:0.00081 pa:0.00224 pl:0.01244 th:0.00158 cs:0.02293 hr:0.00958 sv:0.01725 eu:0.01022 id:0.02535 lv:0.00274 sl:0.01025 ast:0.00536 ht:0.00901 es:0.00680 en:0.03884 kn:0.00085 vi:0.06790
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: i(i): so:0.07031 sk:0.05515 sw:0.12530 nl:0.07384 ms:0.06943 an:0.07445 da:0.06337 he:0.00387 bg:0.00358 ca:0.07640 oc:0.06326 et:0.09861 af:0.09125 fi:0.10400 ro:0.10225 de:0.08646 el:0.00338 br:0.05085 tl:0.07672 lt:0.12817 hu:0.04631 is:0.06911 no:0.06457 pt:0.06976 ta:0.00278 gl:0.06462 mt:0.11371 sq:0.08725 cy:0.06166 uk:0.00149 ml:0.00330 bn:0.00339 mk:0.00303 ga:0.09907 fr:0.07156 it:0.10707 gu:0.00036 te:0.00407 tr:0.08543 ru:0.00215 pa:0.00477 pl:0.08308 th:0.00411 cs:0.04603 hr:0.09735 sv:0.06199 eu:0.08227 id:0.07806 lv:0.09472 sl:0.09033 ast:0.06724 ht:0.07799 es:0.06852 en:0.07883 kn:0.00149 vi:0.05498
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: s(s): so:0.03052 sk:0.04376 sw:0.02681 nl:0.05446 ms:0.03763 an:0.05172 da:0.05864 he:0.00258 bg:0.00247 ca:0.06699 oc:0.06160 et:0.07933 af:0.06644 fi:0.07244 ro:0.03914 de:0.05908 el:0.00204 br:0.03170 tl:0.05381 lt:0.07915 hu:0.05831 is:0.06028 no:0.06217 pt:0.05917 ta:0.00158 gl:0.05720 mt:0.03842 sq:0.05359 cy:0.02669 uk:0.00098 ml:0.00209 bn:0.00215 mk:0.00196 ga:0.04859 fr:0.06753 it:0.04334 gu:0.00024 te:0.00256 tr:0.03437 ru:0.00144 pa:0.00292 pl:0.04049 th:0.00264 cs:0.04537 hr:0.04628 sv:0.06302 eu:0.02746 id:0.04357 lv:0.08457 sl:0.04633 ast:0.05961 ht:0.04684 es:0.05943 en:0.06133 kn:0.00089 vi:0.02074
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: E(E): so:0.00195 sk:0.00085 sw:0.00066 nl:0.00180 ms:0.00073 an:0.00237 da:0.00174 he:0.00034 bg:0.00024 ca:0.00374 oc:0.00166 et:0.00210 af:0.00159 fi:0.00152 ro:0.00186 de:0.00359 el:0.00030 br:0.00270 tl:0.00162 lt:0.00089 hu:0.00170 is:0.00140 no:0.00153 pt:0.00301 ta:0.00017 gl:0.00242 mt:0.00195 sq:0.00147 cy:0.00263 uk:0.00296 ml:0.00021 bn:0.00019 mk:0.00021 ga:0.00146 fr:0.00182 it:0.00120 te:0.00018 tr:0.00185 ru:0.00028 pa:0.00018 pl:0.00108 th:0.00033 cs:0.00087 hr:0.00100 sv:0.00181 eu:0.00291 id:0.00095 lv:0.00103 sl:0.00075 ast:0.00374 ht:0.00151 es:0.00422 en:0.00215 kn:0.00012 vi:0.00073
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: n(n): so:0.04122 sk:0.06134 sw:0.06871 nl:0.09215 ms:0.09130 an:0.08327 da:0.07719 he:0.00346 bg:0.00273 ca:0.06606 oc:0.08444 et:0.05981 af:0.08251 fi:0.08889 ro:0.06918 de:0.09013 el:0.00292 br:0.07640 tl:0.12698 lt:0.05454 hu:0.05306 is:0.07660 no:0.08042 pt:0.05675 ta:0.00237 gl:0.07674 mt:0.05485 sq:0.06471 cy:0.08352 uk:0.00118 ml:0.00275 bn:0.00307 mk:0.00241 ga:0.08334 fr:0.07644 it:0.07420 gu:0.00034 te:0.00351 tr:0.07814 ru:0.00196 pa:0.00437 pl:0.05630 th:0.00371 cs:0.06424 hr:0.06642 sv:0.08177 eu:0.07783 id:0.08997 lv:0.04555 sl:0.07094 ast:0.07365 ht:0.11506 es:0.07367 en:0.07555 kn:0.00134 vi:0.10009
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: g(g): so:0.02290 sk:0.00595 sw:0.01050 nl:0.02360 ms:0.03309 an:0.00996 da:0.03613 he:0.00085 bg:0.00073 ca:0.01373 oc:0.01360 et:0.01776 af:0.02778 fi:0.00451 ro:0.01026 de:0.02307 el:0.00080 br:0.02689 tl:0.08460 lt:0.01643 hu:0.02903 is:0.03531 no:0.03335 pt:0.01299 ta:0.00073 gl:0.01228 mt:0.01374 sq:0.01483 cy:0.03408 uk:0.00033 ml:0.00085 bn:0.00100 mk:0.00060 ga:0.02644 fr:0.01269 it:0.01648 gu:0.00011 te:0.00095 tr:0.01107 ru:0.00051 pa:0.00111 pl:0.01693 th:0.00105 cs:0.00545 hr:0.01721 sv:0.02500 eu:0.01793 id:0.03297 lv:0.01398 sl:0.01436 ast:0.01061 ht:0.01186 es:0.01236 en:0.01679 kn:0.00047 vi:0.03803
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: l(l): so:0.04024 sk:0.03448 sw:0.03192 nl:0.03872 ms:0.03999 an:0.03849 da:0.05038 he:0.00247 bg:0.00205 ca:0.06380 oc:0.05004 et:0.05899 af:0.03727 fi:0.05833 ro:0.05292 de:0.03613 el:0.00199 br:0.03808 tl:0.04450 lt:0.03426 hu:0.06132 is:0.04704 no:0.05088 pt:0.03108 ta:0.00162 gl:0.03753 mt:0.07332 sq:0.02995 cy:0.04985 uk:0.00084 ml:0.00182 bn:0.00200 mk:0.00171 ga:0.04158 fr:0.05330 it:0.06747 gu:0.00018 te:0.00226 tr:0.06782 ru:0.00127 pa:0.00228 pl:0.02537 th:0.00240 cs:0.03905 hr:0.03446 sv:0.04946 eu:0.03638 id:0.03886 lv:0.03472 sl:0.04284 ast:0.06114 ht:0.04204 es:0.05475 en:0.04089 kn:0.00080 vi:0.03202
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  T( T): so:0.00076 sk:0.00144 sw:0.00328 nl:0.00161 ms:0.00362 an:0.00147 da:0.00171 he:0.00038 bg:0.00027 ca:0.00143 oc:0.00095 et:0.00239 af:0.00118 fi:0.00203 ro:0.00156 de:0.00230 el:0.00032 br:0.00136 tl:0.00207 lt:0.00159 hu:0.00143 is:0.00098 no:0.00195 pt:0.00146 ta:0.00022 gl:0.00183 mt:0.00193 sq:0.00148 cy:0.00224 uk:0.00012 ml:0.00019 bn:0.00023 mk:0.00021 ga:0.00346 fr:0.00133 it:0.00140 te:0.00026 tr:0.00265 ru:0.00027 pa:0.00026 pl:0.00126 th:0.00041 cs:0.00147 hr:0.00168 sv:0.00185 eu:0.00135 id:0.00286 lv:0.00183 sl:0.00115 ast:0.00152 ht:0.00099 es:0.00147 en:0.00433 vi:0.00602
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: Th(Th): so:0.00009 sk:0.00015 sw:0.00018 nl:0.00031 ms:0.00022 an:0.00010 da:0.00037 he:0.00015 bg:0.00010 ca:0.00015 oc:0.00009 et:0.00015 af:0.00017 fi:0.00031 ro:0.00023 de:0.00036 br:0.00017 tl:0.00023 lt:0.00008 hu:0.00021 is:0.00015 no:0.00027 pt:0.00018 gl:0.00014 mt:0.00058 sq:0.00016 cy:0.00035 ml:0.00010 bn:0.00011 ga:0.00077 fr:0.00028 it:0.00026 te:0.00013 tr:0.00024 ru:0.00011 pa:0.00011 pl:0.00016 th:0.00018 cs:0.00016 hr:0.00020 sv:0.00036 eu:0.00014 id:0.00023 lv:0.00008 sl:0.00010 ast:0.00012 ht:0.00007 es:0.00022 en:0.00276 vi:0.00247
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: hi(hi): so:0.00355 sk:0.00061 sw:0.00712 nl:0.00153 ms:0.00153 an:0.00207 da:0.00068 he:0.00012 bg:0.00010 ca:0.00080 oc:0.00039 et:0.00183 af:0.00059 fi:0.00149 ro:0.00141 de:0.00182 el:0.00011 br:0.00194 tl:0.00298 lt:0.00034 hu:0.00078 is:0.00061 no:0.00069 pt:0.00075 ta:0.00013 gl:0.00057 mt:0.00216 sq:0.00249 cy:0.00161 ml:0.00014 bn:0.00012 mk:0.00009 ga:0.00227 fr:0.00141 it:0.00143 te:0.00018 tr:0.00159 pa:0.00021 pl:0.00070 th:0.00017 cs:0.00060 hr:0.00078 sv:0.00076 eu:0.00210 id:0.00155 lv:0.00042 sl:0.00050 ast:0.00068 ht:0.00076 es:0.00106 en:0.00341 vi:0.00341
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: is(is): so:0.00577 sk:0.00257 sw:0.00601 nl:0.01106 ms:0.00367 an:0.00276 da:0.00548 he:0.00031 bg:0.00026 ca:0.00417 oc:0.00353 et:0.01366 af:0.00962 fi:0.01554 ro:0.00380 de:0.01305 el:0.00025 br:0.00353 tl:0.00870 lt:0.01063 hu:0.00347 is:0.00351 no:0.00610 pt:0.00550 ta:0.00021 gl:0.00409 mt:0.00691 sq:0.00688 cy:0.00205 uk:0.00011 ml:0.00028 bn:0.00029 mk:0.00029 ga:0.00983 fr:0.00837 it:0.00458 te:0.00036 tr:0.00384 ru:0.00016 pa:0.00029 pl:0.00274 th:0.00035 cs:0.00281 hr:0.00365 sv:0.00550 eu:0.00337 id:0.00537 lv:0.00910 sl:0.00304 ast:0.00367 ht:0.00517 es:0.00439 en:0.01053 kn:0.00013 vi:0.00176
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: s (s ): so:0.00220 sk:0.00323 sw:0.00194 nl:0.01800 ms:0.00470 an:0.01875 da:0.00769 he:0.00093 bg:0.00113 ca:0.02868 oc:0.02582 et:0.01696 af:0.01951 fi:0.00443 ro:0.00300 de:0.01192 el:0.00069 br:0.00890 tl:0.00809 lt:0.03888 hu:0.01277 is:0.00608 no:0.00614 pt:0.01965 ta:0.00054 gl:0.02311 mt:0.00629 sq:0.00687 cy:0.00719 uk:0.00040 ml:0.00079 bn:0.00071 mk:0.00073 ga:0.01821 fr:0.02435 it:0.00239 te:0.00093 tr:0.00301 ru:0.00055 pa:0.00114 pl:0.00215 th:0.00096 cs:0.00308 hr:0.00268 sv:0.00990 eu:0.00391 id:0.00586 lv:0.04087 sl:0.00270 ast:0.02151 ht:0.00571 es:0.02381 en:0.02340 kn:0.00034 vi:0.00485
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  i( i): so:0.00728 sk:0.00139 sw:0.00581 nl:0.01321 ms:0.00323 an:0.00164 da:0.01003 ca:0.00723 oc:0.00113 et:0.00216 af:0.01316 fi:0.00127 ro:0.00292 de:0.01151 br:0.00227 tl:0.00957 lt:0.00699 hu:0.00246 is:0.00056 no:0.01203 pt:0.00196 gl:0.00190 mt:0.00954 sq:0.00647 cy:0.00426 ml:0.00025 bn:0.00013 mk:0.00009 ga:0.01122 fr:0.00219 it:0.00839 te:0.00025 tr:0.00566 pa:0.00042 pl:0.00349 th:0.00012 cs:0.00123 hr:0.01033 sv:0.00984 eu:0.00435 id:0.00299 lv:0.01094 sl:0.00815 ast:0.00201 ht:0.00150 es:0.00214 en:0.01276 kn:0.00011 vi:0.00079
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  E( E): so:0.00038 sk:0.00073 sw:0.00050 nl:0.00147 ms:0.00063 an:0.00195 da:0.00148 he:0.00022 bg:0.00017 ca:0.00308 oc:0.00136 et:0.00183 af:0.00126 fi:0.00126 ro:0.00156 de:0.00301 el:0.00022 br:0.00220 tl:0.00127 lt:0.00077 hu:0.00139 is:0.00118 no:0.00130 pt:0.00240 ta:0.00013 gl:0.00200 mt:0.00163 sq:0.00100 cy:0.00216 ml:0.00014 bn:0.00013 mk:0.00015 ga:0.00107 fr:0.00136 it:0.00091 te:0.00013 tr:0.00162 ru:0.00017 pa:0.00012 pl:0.00084 th:0.00022 cs:0.00075 hr:0.00078 sv:0.00148 eu:0.00250 id:0.00069 lv:0.00089 sl:0.00064 ast:0.00310 ht:0.00122 es:0.00339 en:0.00160 vi:0.00058
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: En(En): nl:0.00027 ms:0.00010 an:0.00020 da:0.00048 ca:0.00026 oc:0.00015 et:0.00009 af:0.00040 fi:0.00017 ro:0.00009 de:0.00033 br:0.00025 tl:0.00028 lt:0.00005 is:0.00015 no:0.00037 pt:0.00011 gl:0.00017 mt:0.00007 cy:0.00026 ga:0.00003 fr:0.00024 it:0.00009 tr:0.00023 sv:0.00034 eu:0.00010 lv:0.00005 sl:0.00006 ast:0.00025 ht:0.00021 es:0.00035 en:0.00041 vi:0.00004
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: ng(ng): so:0.00053 sk:0.00086 sw:0.00440 nl:0.00396 ms:0.01940 an:0.00110 da:0.00576 he:0.00021 bg:0.00016 ca:0.00129 oc:0.00098 et:0.00339 af:0.00542 fi:0.00157 ro:0.00148 de:0.00592 el:0.00018 br:0.00148 tl:0.04989 lt:0.00207 hu:0.00160 is:0.00605 no:0.00613 pt:0.00131 ta:0.00021 gl:0.00114 mt:0.00143 sq:0.00389 cy:0.00440 ml:0.00022 bn:0.00027 mk:0.00013 ga:0.00146 fr:0.00157 it:0.00167 te:0.00025 tr:0.00121 ru:0.00015 pa:0.00037 pl:0.00107 th:0.00038 cs:0.00101 hr:0.00133 sv:0.00632 eu:0.00163 id:0.01879 lv:0.00084 sl:0.00072 ast:0.00162 ht:0.00084 es:0.00128 en:0.00566 kn:0.00013 vi:0.02440
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: gl(gl): so:0.00014 sk:0.00031 sw:0.00009 nl:0.00018 ms:0.00016 an:0.00040 da:0.00057 ca:0.00061 oc:0.00037 et:0.00061 af:0.00018 fi:0.00033 ro:0.00042 de:0.00079 br:0.00030 tl:0.00152 lt:0.00035 hu:0.00034 is:0.00081 no:0.00043 pt:0.00031 gl:0.00034 mt:0.00028 sq:0.00031 cy:0.00164 ga:0.00040 fr:0.00049 it:0.00185 tr:0.00013 pl:0.00030 cs:0.00041 hr:0.00116 sv:0.00046 eu:0.00011 id:0.00014 lv:0.00054 sl:0.00103 ast:0.00052 ht:0.00030 es:0.00061 en:0.00061 vi:0.00010
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: li(li): so:0.00529 sk:0.00396 sw:0.01153 nl:0.00518 ms:0.00439 an:0.00331 da:0.00625 he:0.00027 bg:0.00030 ca:0.00414 oc:0.00241 et:0.01153 af:0.00526 fi:0.00944 ro:0.00560 de:0.00566 el:0.00022 br:0.00374 tl:0.00674 lt:0.00893 hu:0.00285 is:0.00366 no:0.00622 pt:0.00439 ta:0.00019 gl:0.00344 mt:0.01063 sq:0.00640 cy:0.00306 uk:0.00011 ml:0.00025 bn:0.00023 mk:0.00024 ga:0.00423 fr:0.00466 it:0.00730 te:0.00025 tr:0.00688 ru:0.00013 pa:0.00026 pl:0.00411 th:0.00031 cs:0.00442 hr:0.00696 sv:0.00525 eu:0.00385 id:0.00479 lv:0.00499 sl:0.00725 ast:0.00391 ht:0.01028 es:0.00427 en:0.00460 kn:0.00014 vi:0.00171
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: sh(sh): so:0.00418 sk:0.00011 sw:0.00522 nl:0.00041 ms:0.00031 an:0.00017 da:0.00049 ca:0.00024 oc:0.00026 et:0.00027 af:0.00026 fi:0.00031 ro:0.00018 de:0.00047 br:0.00039 tl:0.00043 lt:0.00006 hu:0.00024 is:0.00052 no:0.00056 pt:0.00024 gl:0.00016 mt:0.00011 sq:0.01700 cy:0.00031 ga:0.00076 fr:0.00025 it:0.00026 te:0.00019 tr:0.00019 pa:0.00009 pl:0.00017 cs:0.00016 hr:0.00040 sv:0.00057 eu:0.00020 id:0.00034 lv:0.00008 sl:0.00011 ast:0.00020 ht:0.00004 es:0.00020 en:0.00230 vi:0.00040
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  Th( Th): so:0.00012 sk:0.00022 sw:0.00024 nl:0.00042 ms:0.00026 an:0.00013 da:0.00052 he:0.00022 bg:0.00015 ca:0.00018 oc:0.00011 et:0.00018 af:0.00023 fi:0.00041 ro:0.00027 de:0.00049 br:0.00021 tl:0.00030 lt:0.00009 hu:0.00030 is:0.00018 no:0.00038 pt:0.00025 gl:0.00018 mt:0.00070 sq:0.00022 cy:0.00043 bn:0.00016 ga:0.00095 fr:0.00039 it:0.00034 te:0.00018 tr:0.00033 ru:0.00016 pa:0.00017 pl:0.00021 th:0.00030 cs:0.00024 hr:0.00028 sv:0.00051 eu:0.00016 id:0.00031 lv:0.00009 sl:0.00012 ast:0.00014 ht:0.00009 es:0.00030 en:0.00377 vi:0.00319
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: Thi(Thi): ca:0.00001 oc:0.00002 ro:0.00002 br:0.00001 gl:0.00001 cy:0.00001 ga:0.00010 eu:0.00002 ast:0.00001 en:0.00025 vi:0.00018
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: his(his): so:0.00029 sk:0.00021 sw:0.00023 nl:0.00027 ms:0.00002 an:0.00018 da:0.00027 ca:0.00026 oc:0.00002 et:0.00040 af:0.00013 fi:0.00022 ro:0.00009 de:0.00049 br:0.00004 lt:0.00001 is:0.00001 no:0.00026 pt:0.00024 gl:0.00021 mt:0.00006 sq:0.00029 cy:0.00005 ga:0.00039 fr:0.00034 pl:0.00024 cs:0.00027 sv:0.00023 eu:0.00027 lv:0.00004 sl:0.00003 ast:0.00015 ht:0.00001 es:0.00028 en:0.00104 vi:0.00008
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: is (is ): so:0.00085 sk:0.00044 sw:0.00045 nl:0.00907 ms:0.00193 an:0.00040 da:0.00101 he:0.00018 bg:0.00014 ca:0.00118 oc:0.00136 et:0.00429 af:0.00944 fi:0.00064 ro:0.00048 de:0.00168 br:0.00122 tl:0.00079 lt:0.00863 hu:0.00191 is:0.00069 no:0.00076 pt:0.00232 gl:0.00167 mt:0.00242 sq:0.00035 cy:0.00082 mk:0.00015 ga:0.00681 fr:0.00381 it:0.00050 te:0.00018 tr:0.00047 pa:0.00025 pl:0.00037 th:0.00018 cs:0.00044 hr:0.00040 sv:0.00075 eu:0.00081 id:0.00239 lv:0.00414 sl:0.00035 ast:0.00049 ht:0.00220 es:0.00074 en:0.00816 vi:0.00123
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  is( is): so:0.00186 nl:0.00810 ms:0.00016 an:0.00035 da:0.00021 ca:0.00005 oc:0.00015 et:0.00045 af:0.00846 fi:0.00015 ro:0.00024 de:0.00612 br:0.00086 tl:0.00661 lt:0.00024 hu:0.00119 is:0.00002 no:0.00013 gl:0.00006 mt:0.00197 sq:0.00118 cy:0.00012 ga:0.00326 fr:0.00012 it:0.00030 tr:0.00071 pa:0.00013 pl:0.00020 hr:0.00095 sv:0.00020 eu:0.00008 id:0.00023 lv:0.00005 sl:0.00013 ast:0.00022 ht:0.00014 es:0.00016 en:0.00683 vi:0.00040
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  En( En): nl:0.00036 ms:0.00012 an:0.00025 da:0.00066 ca:0.00032 oc:0.00017 et:0.00011 af:0.00054 fi:0.00022 ro:0.00010 de:0.00045 br:0.00032 tl:0.00037 lt:0.00005 is:0.00019 no:0.00051 pt:0.00016 gl:0.00021 mt:0.00008 cy:0.00031 ga:0.00004 fr:0.00032 it:0.00012 tr:0.00031 sv:0.00047 eu:0.00011 lv:0.00006 sl:0.00007 ast:0.00031 ht:0.00027 es:0.00047 en:0.00056 vi:0.00006
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: Eng(Eng): nl:0.00029 ms:0.00005 an:0.00001 ca:0.00002 et:0.00001 af:0.00048 ro:0.00002 br:0.00001 tl:0.00017 is:0.00013 no:0.00018 mt:0.00001 cy:0.00002 ga:0.00001 sv:0.00014 ast:0.00001 en:0.00043 vi:0.00001
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: ngl(ngl): sk:0.00035 ms:0.00012 an:0.00027 da:0.00024 ca:0.00028 oc:0.00015 et:0.00053 fi:0.00035 ro:0.00038 de:0.00045 br:0.00011 tl:0.00138 lt:0.00019 is:0.00025 no:0.00024 pt:0.00030 gl:0.00028 mt:0.00024 sq:0.00022 cy:0.00016 ga:0.00011 fr:0.00037 it:0.00030 cs:0.00049 hr:0.00041 sv:0.00035 eu:0.00004 lv:0.00015 sl:0.00031 ast:0.00031 ht:0.00005 es:0.00037 en:0.00068 vi:0.00005
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: gli(gli): sk:0.00021 ms:0.00004 an:0.00002 ca:0.00003 oc:0.00003 et:0.00053 ro:0.00010 de:0.00056 br:0.00005 tl:0.00030 lt:0.00016 is:0.00013 gl:0.00005 mt:0.00029 sq:0.00018 cy:0.00008 ga:0.00003 fr:0.00012 it:0.00205 cs:0.00039 sv:0.00024 eu:0.00003 lv:0.00017 sl:0.00014 ast:0.00002 ht:0.00015 en:0.00025 vi:0.00002
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: lis(lis): so:0.00023 sk:0.00034 sw:0.00029 nl:0.00042 ms:0.00049 an:0.00029 da:0.00042 ca:0.00048 oc:0.00024 et:0.00311 af:0.00038 fi:0.00269 ro:0.00044 de:0.00087 br:0.00021 tl:0.00050 lt:0.00100 hu:0.00082 is:0.00058 no:0.00055 pt:0.00051 gl:0.00046 mt:0.00025 sq:0.00067 cy:0.00012 ga:0.00022 fr:0.00132 it:0.00038 tr:0.00055 pl:0.00047 cs:0.00050 hr:0.00031 sv:0.00062 eu:0.00024 id:0.00073 lv:0.00087 sl:0.00033 ast:0.00051 ht:0.00084 es:0.00048 en:0.00113 vi:0.00014
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: ish(ish): so:0.00115 sw:0.00494 nl:0.00014 ms:0.00013 an:0.00005 ca:0.00005 oc:0.00018 et:0.00004 ro:0.00004 de:0.00020 br:0.00014 tl:0.00026 lt:0.00002 is:0.00011 no:0.00014 gl:0.00004 mt:0.00003 sq:0.00354 cy:0.00006 ga:0.00008 hr:0.00013 sv:0.00018 eu:0.00004 lv:0.00002 sl:0.00003 ast:0.00003 en:0.00155 vi:0.00010
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: ==> [DetectedLanguage[en:0.9999999095836573]]
+Sep 05, 2016 10:51:33 AM org.apache.tika.server.resource.LanguageResource detect
+INFO: Detecting language for incoming resource: [en]
+Sep 05, 2016 10:51:33 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream used: http://localhost:9998/language/stream
+Sep 05, 2016 10:51:33 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@5e2c3d185 pairs: {null: HTTP/1.1 200 OK}{Content-Type: text/plain}{Date: Mon, 05 Sep 2016 14:51:33 GMT}{Content-Length: 2}{Server: Jetty(8.1.15.v20140411)}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: RESPONSE /language/stream  200 handled=true
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Enabled read interest SCEP@7ee110f9{l(/127.0.0.1:53759)<->r(/127.0.0.1:9998),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@69a8ecbf,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=2,c=17},r=4}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 0/0
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 - o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@48075da3
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@48075da3
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@48075da3
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter info
+INFO: stopped o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} - org.apache.cxf.transport.http_jetty.JettyHTTPHandler@48075da3 as handler
+Sep 05, 2016 10:51:33 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:9998/
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} + org.apache.cxf.transport.http_jetty.JettyHTTPHandler@6e9a5ed8 as handler
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 + o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@6e9a5ed8
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@6e9a5ed8
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@6e9a5ed8
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/language/string
+Sep 05, 2016 10:51:33 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/language/stream)
+Sep 05, 2016 10:51:33 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 05, 2016 10:51:33 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@6c284af9 pairs: {PUT /language/string HTTP/1.1: null}{Content-Type: text/plain}{Accept: text/plain}{User-Agent: Apache CXF 3.0.3}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}{Content-Length: 26}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 244/244
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: REQUEST /language/string on AsyncHttpConnection@69a8ecbf,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=2,l=2,c=26},r=5
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: scope null||/language/string @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: context=||/language/string @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: c(c): so:0.00957 sk:0.02453 sw:0.00743 nl:0.01577 ms:0.00648 an:0.04626 da:0.00595 he:0.00151 bg:0.00123 ca:0.03683 oc:0.03271 et:0.00248 af:0.00318 fi:0.00293 ro:0.04139 de:0.02623 el:0.00117 br:0.01044 tl:0.00472 lt:0.00623 hu:0.01108 is:0.00184 no:0.00380 pt:0.03489 ta:0.00107 gl:0.04196 mt:0.00395 sq:0.00595 cy:0.01936 uk:0.00064 ml:0.00141 bn:0.00131 mk:0.00106 ga:0.03577 fr:0.02822 it:0.03852 gu:0.00014 te:0.00143 tr:0.00941 ru:0.00088 pa:0.00172 pl:0.03989 th:0.00178 cs:0.02689 hr:0.01259 sv:0.01380 eu:0.00364 id:0.00636 lv:0.01068 sl:0.00975 ast:0.03952 ht:0.00618 es:0.04143 en:0.03005 kn:0.00065 vi:0.04862
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: e(e): so:0.04780 sk:0.08366 sw:0.03546 nl:0.16956 ms:0.08156 an:0.10470 da:0.14852 he:0.00520 bg:0.00407 ca:0.11263 oc:0.11067 et:0.09812 af:0.15636 fi:0.07864 ro:0.11371 de:0.14656 el:0.00409 br:0.13614 tl:0.03059 lt:0.05798 hu:0.09119 is:0.06628 no:0.14182 pt:0.10892 ta:0.00303 gl:0.10788 mt:0.06696 sq:0.09496 cy:0.08402 uk:0.00176 ml:0.00384 bn:0.00416 mk:0.00350 ga:0.05959 fr:0.13878 it:0.10850 gu:0.00045 te:0.00446 tr:0.08689 ru:0.00291 pa:0.00582 pl:0.07882 th:0.00503 cs:0.08020 hr:0.08477 sv:0.09799 eu:0.10796 id:0.07591 lv:0.06244 sl:0.09948 ast:0.12077 ht:0.08303 es:0.12626 en:0.10672 kn:0.00183 vi:0.03105
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: s(s): so:0.03052 sk:0.04376 sw:0.02681 nl:0.05446 ms:0.03763 an:0.05172 da:0.05864 he:0.00258 bg:0.00247 ca:0.06699 oc:0.06160 et:0.07933 af:0.06644 fi:0.07244 ro:0.03914 de:0.05908 el:0.00204 br:0.03170 tl:0.05381 lt:0.07915 hu:0.05831 is:0.06028 no:0.06217 pt:0.05917 ta:0.00158 gl:0.05720 mt:0.03842 sq:0.05359 cy:0.02669 uk:0.00098 ml:0.00209 bn:0.00215 mk:0.00196 ga:0.04859 fr:0.06753 it:0.04334 gu:0.00024 te:0.00256 tr:0.03437 ru:0.00144 pa:0.00292 pl:0.04049 th:0.00264 cs:0.04537 hr:0.04628 sv:0.06302 eu:0.02746 id:0.04357 lv:0.08457 sl:0.04633 ast:0.05961 ht:0.04684 es:0.05943 en:0.06133 kn:0.00089 vi:0.02074
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: t(t): so:0.01642 sk:0.04628 sw:0.03080 nl:0.06574 ms:0.04386 an:0.05426 da:0.06421 he:0.00277 bg:0.00225 ca:0.05842 oc:0.05188 et:0.05955 af:0.05360 fi:0.07699 ro:0.06403 de:0.06089 el:0.00238 br:0.04484 tl:0.04021 lt:0.04876 hu:0.06412 is:0.05015 no:0.07012 pt:0.04530 ta:0.00233 gl:0.04603 mt:0.07309 sq:0.08168 cy:0.02648 uk:0.00109 ml:0.00323 bn:0.00286 mk:0.00207 ga:0.04494 fr:0.06637 it:0.06674 gu:0.00034 te:0.00378 tr:0.03642 ru:0.00177 pa:0.00415 pl:0.03605 th:0.00322 cs:0.04840 hr:0.03919 sv:0.06687 eu:0.06388 id:0.04715 lv:0.05635 sl:0.04165 ast:0.04440 ht:0.05443 es:0.04422 en:0.07438 kn:0.00160 vi:0.06897
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: o(o): so:0.06359 sk:0.09104 sw:0.04332 nl:0.05421 ms:0.02191 an:0.07744 da:0.05048 he:0.00346 bg:0.00275 ca:0.04628 oc:0.05257 et:0.05157 af:0.05624 fi:0.06152 ro:0.05203 de:0.03113 el:0.00290 br:0.06501 tl:0.05307 lt:0.06608 hu:0.04275 is:0.02425 no:0.05422 pt:0.09403 ta:0.00219 gl:0.10043 mt:0.03910 sq:0.04029 cy:0.05303 uk:0.00128 ml:0.00260 bn:0.00282 mk:0.00265 ga:0.03602 fr:0.05314 it:0.08086 gu:0.00028 te:0.00314 tr:0.02840 ru:0.00211 pa:0.00354 pl:0.07874 th:0.00374 cs:0.07855 hr:0.08069 sv:0.04750 eu:0.05886 id:0.02760 lv:0.04195 sl:0.08235 ast:0.06290 ht:0.08353 es:0.07746 en:0.07156 kn:0.00121 vi:0.03168
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: m(m): so:0.02615 sk:0.02981 sw:0.04075 nl:0.02318 ms:0.03270 an:0.02427 da:0.03032 he:0.00121 bg:0.00154 ca:0.02742 oc:0.02977 et:0.03391 af:0.02034 fi:0.02856 ro:0.02733 de:0.02334 el:0.00111 br:0.02054 tl:0.02835 lt:0.03069 hu:0.02730 is:0.03523 no:0.02983 pt:0.04229 ta:0.00117 gl:0.02456 mt:0.03646 sq:0.03222 cy:0.01936 uk:0.00050 ml:0.00135 bn:0.00127 mk:0.00107 ga:0.02047 fr:0.02589 it:0.02397 gu:0.00014 te:0.00148 tr:0.03000 ru:0.00074 pa:0.00231 pl:0.02561 th:0.00134 cs:0.02900 hr:0.02706 sv:0.03186 eu:0.01569 id:0.03277 lv:0.03289 sl:0.02620 ast:0.02501 ht:0.02788 es:0.02417 en:0.02365 kn:0.00068 vi:0.03043
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: i(i): so:0.07031 sk:0.05515 sw:0.12530 nl:0.07384 ms:0.06943 an:0.07445 da:0.06337 he:0.00387 bg:0.00358 ca:0.07640 oc:0.06326 et:0.09861 af:0.09125 fi:0.10400 ro:0.10225 de:0.08646 el:0.00338 br:0.05085 tl:0.07672 lt:0.12817 hu:0.04631 is:0.06911 no:0.06457 pt:0.06976 ta:0.00278 gl:0.06462 mt:0.11371 sq:0.08725 cy:0.06166 uk:0.00149 ml:0.00330 bn:0.00339 mk:0.00303 ga:0.09907 fr:0.07156 it:0.10707 gu:0.00036 te:0.00407 tr:0.08543 ru:0.00215 pa:0.00477 pl:0.08308 th:0.00411 cs:0.04603 hr:0.09735 sv:0.06199 eu:0.08227 id:0.07806 lv:0.09472 sl:0.09033 ast:0.06724 ht:0.07799 es:0.06852 en:0.07883 kn:0.00149 vi:0.05498
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: ç(\u00e7): ms:0.00002 an:0.00018 ca:0.00088 oc:0.00135 et:0.00002 ro:0.00002 br:0.00008 pt:0.00432 gl:0.00003 mt:0.00004 sq:0.00122 cy:0.00002 ko:0.00001 ga:0.00002 fr:0.00153 tr:0.00752 eu:0.00004 lv:0.00001 sl:0.00003 ast:0.00003 ht:0.00003 vi:0.00002
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: a(a): so:0.26053 sk:0.08308 sw:0.21993 nl:0.07886 ms:0.19474 an:0.12524 da:0.06073 he:0.00459 bg:0.00383 ca:0.11909 oc:0.14390 et:0.11434 af:0.08342 fi:0.11948 ro:0.09881 de:0.05745 el:0.00399 br:0.11836 tl:0.20531 lt:0.11182 hu:0.09303 is:0.09315 no:0.06354 pt:0.11764 ta:0.00369 gl:0.11909 mt:0.12442 sq:0.07228 cy:0.09342 uk:0.00171 ml:0.00384 bn:0.00440 mk:0.00386 ga:0.15303 fr:0.07779 it:0.11026 gu:0.00051 te:0.00562 tr:0.11201 ru:0.00242 pa:0.00499 pl:0.08533 th:0.00489 cs:0.06748 hr:0.11387 sv:0.08693 eu:0.16299 id:0.18963 lv:0.11285 sl:0.10350 ast:0.10758 ht:0.10368 es:0.11263 en:0.08974 kn:0.00161 vi:0.05017
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  c( c): so:0.00331 sk:0.00141 sw:0.00140 nl:0.00130 ms:0.00054 an:0.01111 da:0.00076 he:0.00009 ca:0.00779 oc:0.00702 et:0.00012 af:0.00024 fi:0.00016 ro:0.01201 de:0.00026 br:0.00233 tl:0.00052 lt:0.00072 hu:0.00266 is:0.00009 no:0.00036 pt:0.01089 ta:0.00015 gl:0.01265 mt:0.00012 sq:0.00146 cy:0.00594 ml:0.00027 bn:0.00014 mk:0.00011 ga:0.00795 fr:0.00756 it:0.01104 te:0.00024 tr:0.00054 pa:0.00025 pl:0.00262 th:0.00027 cs:0.00157 hr:0.00097 sv:0.00060 eu:0.00013 id:0.00068 lv:0.00175 sl:0.00064 ast:0.01091 ht:0.00202 es:0.01015 en:0.00565 kn:0.00014 vi:0.01518
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: es(es): so:0.00085 sk:0.00406 sw:0.00145 nl:0.00487 ms:0.00424 an:0.00761 da:0.00594 he:0.00035 bg:0.00027 ca:0.01388 oc:0.01569 et:0.01008 af:0.00838 fi:0.00605 ro:0.00821 de:0.00778 el:0.00029 br:0.00277 tl:0.00312 lt:0.00336 hu:0.00542 is:0.00271 no:0.00616 pt:0.01032 ta:0.00023 gl:0.01189 mt:0.00326 sq:0.00511 cy:0.00378 uk:0.00013 ml:0.00030 bn:0.00033 mk:0.00023 ga:0.00070 fr:0.01869 it:0.00663 te:0.00041 tr:0.00498 ru:0.00021 pa:0.00039 pl:0.00339 th:0.00040 cs:0.00341 hr:0.00280 sv:0.00440 eu:0.00648 id:0.00473 lv:0.00563 sl:0.00338 ast:0.01725 ht:0.00314 es:0.01522 en:0.00776 kn:0.00012 vi:0.00234
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: st(st): so:0.00159 sk:0.00972 sw:0.00118 nl:0.00861 ms:0.00179 an:0.00744 da:0.01036 he:0.00030 bg:0.00022 ca:0.00641 oc:0.00450 et:0.01357 af:0.00947 fi:0.01272 ro:0.01252 de:0.01231 el:0.00024 br:0.00455 tl:0.00284 lt:0.00629 hu:0.00213 is:0.01142 no:0.01032 pt:0.00773 ta:0.00022 gl:0.00728 mt:0.00563 sq:0.00368 cy:0.00242 uk:0.00010 ml:0.00026 bn:0.00028 mk:0.00021 ga:0.00312 fr:0.00959 it:0.00683 te:0.00026 tr:0.00332 ru:0.00018 pa:0.00038 pl:0.00865 th:0.00036 cs:0.01120 hr:0.00938 sv:0.00960 eu:0.00451 id:0.00258 lv:0.00929 sl:0.00957 ast:0.00850 ht:0.00238 es:0.00688 en:0.00753 kn:0.00013 vi:0.00146
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: t (t ): so:0.00047 sk:0.00192 sw:0.00079 nl:0.02211 ms:0.00514 an:0.00495 da:0.01906 he:0.00040 bg:0.00036 ca:0.01232 oc:0.01217 et:0.00814 af:0.01257 fi:0.00514 ro:0.00904 de:0.01639 el:0.00041 br:0.01640 tl:0.00715 lt:0.00120 hu:0.01291 is:0.00741 no:0.01957 pt:0.00105 ta:0.00034 gl:0.00061 mt:0.01081 sq:0.01474 cy:0.00276 uk:0.00018 ml:0.00051 bn:0.00042 mk:0.00025 ga:0.00530 fr:0.02081 it:0.00158 te:0.00061 tr:0.00345 ru:0.00033 pa:0.00053 pl:0.00300 th:0.00049 cs:0.00330 hr:0.00240 sv:0.01466 eu:0.00437 id:0.00590 lv:0.00256 sl:0.00305 ast:0.00062 ht:0.00795 es:0.00114 en:0.01124 kn:0.00029 vi:0.01387
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: co(co): so:0.00057 sk:0.00080 sw:0.00025 nl:0.00108 ms:0.00036 an:0.00753 da:0.00042 he:0.00013 bg:0.00012 ca:0.00487 oc:0.00562 et:0.00020 af:0.00025 fi:0.00030 ro:0.00434 de:0.00032 el:0.00012 br:0.00041 tl:0.00061 lt:0.00016 hu:0.00045 is:0.00015 no:0.00034 pt:0.00915 ta:0.00013 gl:0.01037 mt:0.00032 sq:0.00023 cy:0.00128 ml:0.00021 bn:0.00012 mk:0.00012 ga:0.00128 fr:0.00507 it:0.00931 te:0.00019 tr:0.00029 pa:0.00021 pl:0.00101 th:0.00020 cs:0.00078 hr:0.00045 sv:0.00037 eu:0.00038 id:0.00037 lv:0.00022 sl:0.00076 ast:0.00767 ht:0.00016 es:0.00834 en:0.00406 kn:0.00010 vi:0.00084
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: om(om): so:0.00312 sk:0.00580 sw:0.00118 nl:0.00244 ms:0.00153 an:0.00490 da:0.00604 he:0.00017 bg:0.00013 ca:0.00398 oc:0.00711 et:0.00221 af:0.00303 fi:0.00291 ro:0.00448 de:0.00178 el:0.00012 br:0.00238 tl:0.00122 lt:0.00263 hu:0.00244 is:0.00061 no:0.00793 pt:0.00616 ta:0.00014 gl:0.00493 mt:0.00232 sq:0.00200 cy:0.00077 ml:0.00019 bn:0.00018 mk:0.00014 ga:0.00270 fr:0.00408 it:0.00445 te:0.00015 tr:0.00130 ru:0.00011 pa:0.00031 pl:0.00213 th:0.00025 cs:0.00212 hr:0.00486 sv:0.00701 eu:0.00125 id:0.00157 lv:0.00188 sl:0.00284 ast:0.00379 ht:0.00113 es:0.00403 en:0.00382 vi:0.00083
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: mm(mm): sk:0.00009 sw:0.00021 nl:0.00050 ms:0.00025 an:0.00006 da:0.00242 ca:0.00021 oc:0.00027 et:0.00058 af:0.00044 fi:0.00155 ro:0.00010 de:0.00109 br:0.00078 tl:0.00021 lt:0.00006 hu:0.00035 is:0.00050 no:0.00251 pt:0.00010 gl:0.00006 mt:0.00263 cy:0.00011 ga:0.00010 fr:0.00190 it:0.00064 tr:0.00026 pl:0.00012 cs:0.00010 sv:0.00172 eu:0.00015 id:0.00017 lv:0.00023 sl:0.00007 ast:0.00008 ht:0.00004 es:0.00010 en:0.00085 vi:0.00023
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: me(me): so:0.00182 sk:0.00517 sw:0.00169 nl:0.00753 ms:0.00802 an:0.00340 da:0.00707 he:0.00019 bg:0.00014 ca:0.00537 oc:0.00593 et:0.00482 af:0.00506 fi:0.00404 ro:0.00417 de:0.00414 el:0.00017 br:0.00296 tl:0.00126 lt:0.00379 hu:0.00609 is:0.00312 no:0.00644 pt:0.00486 ta:0.00014 gl:0.00510 mt:0.00327 sq:0.00638 cy:0.00253 ml:0.00016 bn:0.00018 mk:0.00014 ga:0.00075 fr:0.00537 it:0.00535 te:0.00017 tr:0.00433 ru:0.00013 pa:0.00031 pl:0.00176 th:0.00023 cs:0.00310 hr:0.00412 sv:0.00528 eu:0.00486 id:0.00732 lv:0.00340 sl:0.00583 ast:0.00402 ht:0.00315 es:0.00398 en:0.00470 vi:0.00092
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: e (e ): so:0.00807 sk:0.01961 sw:0.00671 nl:0.03213 ms:0.00366 an:0.03076 da:0.02268 he:0.00114 bg:0.00103 ca:0.02342 oc:0.03371 et:0.01968 af:0.04355 fi:0.00605 ro:0.03741 de:0.02097 el:0.00088 br:0.01851 tl:0.00424 lt:0.01071 hu:0.00805 is:0.00143 no:0.02102 pt:0.03444 ta:0.00066 gl:0.03203 mt:0.00296 sq:0.03483 cy:0.00737 uk:0.00038 ml:0.00096 bn:0.00102 mk:0.00080 ga:0.01636 fr:0.05301 it:0.03199 gu:0.00011 te:0.00105 tr:0.01811 ru:0.00072 pa:0.00124 pl:0.01721 th:0.00132 cs:0.01897 hr:0.02699 sv:0.01062 eu:0.01018 id:0.00337 lv:0.00375 sl:0.02604 ast:0.03121 ht:0.03023 es:0.03397 en:0.02753 kn:0.00046 vi:0.00775
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: ci(ci): so:0.00067 sk:0.00348 sw:0.00018 nl:0.00127 ms:0.00085 an:0.01153 da:0.00067 he:0.00012 bg:0.00014 ca:0.00772 oc:0.00680 et:0.00017 af:0.00019 fi:0.00019 ro:0.00338 de:0.00026 el:0.00011 br:0.00033 tl:0.00045 lt:0.00263 hu:0.00147 is:0.00013 no:0.00025 pt:0.00561 gl:0.00770 mt:0.00037 sq:0.00231 cy:0.00036 ml:0.00012 bn:0.00009 mk:0.00010 ga:0.00087 fr:0.00246 it:0.00488 te:0.00012 tr:0.00124 pl:0.00541 th:0.00013 cs:0.00185 hr:0.00358 sv:0.00073 eu:0.00042 id:0.00069 lv:0.00409 sl:0.00223 ast:0.00798 ht:0.00010 es:0.00941 en:0.00223 vi:0.00082
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: i (i ): so:0.00782 sk:0.00629 sw:0.03355 nl:0.00179 ms:0.01750 an:0.00115 da:0.00903 he:0.00020 bg:0.00020 ca:0.00950 oc:0.00426 et:0.01364 af:0.00139 fi:0.01111 ro:0.01851 de:0.00188 el:0.00024 br:0.00279 tl:0.00490 lt:0.01011 hu:0.00955 is:0.01276 no:0.01192 pt:0.00287 ta:0.00022 gl:0.00219 mt:0.02286 sq:0.01628 cy:0.00881 uk:0.00009 ml:0.00015 bn:0.00016 mk:0.00024 ga:0.00489 fr:0.00314 it:0.02266 te:0.00026 tr:0.01290 ru:0.00010 pa:0.00020 pl:0.01117 th:0.00022 cs:0.00692 hr:0.02286 sv:0.00961 eu:0.00609 id:0.02055 lv:0.00858 sl:0.01981 ast:0.00231 ht:0.02546 es:0.00082 en:0.00115 vi:0.01229
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  ç( \u00e7): oc:0.00003 sq:0.00039 tr:0.00174
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: ça(\u00e7a): an:0.00004 ca:0.00047 oc:0.00092 br:0.00002 pt:0.00067 gl:0.00001 mt:0.00002 sq:0.00021 fr:0.00114 tr:0.00095 eu:0.00001 ast:0.00001
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: a (a ): so:0.05414 sk:0.02396 sw:0.09180 nl:0.00343 ms:0.02247 an:0.03912 da:0.00392 he:0.00059 bg:0.00054 ca:0.03681 oc:0.05202 et:0.02063 af:0.00390 fi:0.03081 ro:0.02192 de:0.00295 el:0.00060 br:0.02135 tl:0.03781 lt:0.01200 hu:0.01963 is:0.01649 no:0.00589 pt:0.03724 ta:0.00029 gl:0.03478 mt:0.03702 sq:0.01370 cy:0.01160 uk:0.00028 ml:0.00048 bn:0.00048 mk:0.00067 ga:0.02668 fr:0.00911 it:0.03444 te:0.00065 tr:0.01693 ru:0.00030 pa:0.00064 pl:0.02241 th:0.00060 cs:0.01673 hr:0.03420 sv:0.01286 eu:0.03376 id:0.02457 lv:0.01893 sl:0.03128 ast:0.03500 ht:0.01176 es:0.03386 en:0.00969 kn:0.00015 vi:0.01310
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: est(est): sk:0.00211 sw:0.00021 nl:0.00233 ms:0.00026 an:0.00404 da:0.00245 ca:0.00289 oc:0.00093 et:0.00363 af:0.00222 fi:0.00295 ro:0.00698 de:0.00179 br:0.00079 tl:0.00047 lt:0.00082 hu:0.00070 is:0.00127 no:0.00273 pt:0.00276 gl:0.00244 mt:0.00176 sq:0.00035 cy:0.00049 ga:0.00014 fr:0.00861 it:0.00167 tr:0.00051 pl:0.00168 cs:0.00089 hr:0.00156 sv:0.00114 eu:0.00110 id:0.00033 lv:0.00046 sl:0.00169 ast:0.00354 ht:0.00064 es:0.00301 en:0.00185 vi:0.00028
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: st (st ): sk:0.00028 sw:0.00014 nl:0.00143 ms:0.00014 an:0.00013 da:0.00193 ca:0.00094 oc:0.00036 et:0.00465 af:0.00020 fi:0.00015 ro:0.00260 de:0.00730 br:0.00078 tl:0.00021 lt:0.00008 hu:0.00062 is:0.00267 no:0.00234 pt:0.00013 gl:0.00010 mt:0.00054 sq:0.00047 cy:0.00038 ga:0.00038 fr:0.00819 it:0.00042 tr:0.00045 pa:0.00013 pl:0.00136 cs:0.00130 hr:0.00092 sv:0.00176 eu:0.00013 id:0.00019 lv:0.00033 sl:0.00100 ast:0.00007 ht:0.00014 es:0.00017 en:0.00351 vi:0.00022
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  co( co): so:0.00026 nl:0.00068 ms:0.00011 an:0.00649 da:0.00019 ca:0.00482 oc:0.00607 et:0.00004 ro:0.00372 br:0.00014 tl:0.00032 lt:0.00002 is:0.00003 pt:0.00902 gl:0.00981 mt:0.00005 cy:0.00114 ml:0.00020 ga:0.00090 fr:0.00512 it:0.00721 te:0.00017 pa:0.00025 pl:0.00021 th:0.00018 cs:0.00024 eu:0.00004 id:0.00016 lv:0.00003 sl:0.00005 ast:0.00776 ht:0.00011 es:0.00766 en:0.00367 vi:0.00053
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: com(com): so:0.00013 sk:0.00015 nl:0.00047 ms:0.00003 an:0.00379 da:0.00014 ca:0.00226 oc:0.00505 et:0.00002 ro:0.00173 br:0.00004 tl:0.00022 lt:0.00001 is:0.00002 pt:0.00613 gl:0.00290 mt:0.00001 cy:0.00006 ga:0.00045 fr:0.00261 it:0.00322 pa:0.00015 eu:0.00003 lv:0.00003 sl:0.00002 ast:0.00216 ht:0.00005 es:0.00305 en:0.00164 vi:0.00016
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: omm(omm): nl:0.00026 ms:0.00015 an:0.00002 da:0.00164 ca:0.00009 oc:0.00027 et:0.00015 af:0.00034 ro:0.00003 de:0.00050 br:0.00009 tl:0.00018 hu:0.00016 is:0.00009 no:0.00217 gl:0.00003 mt:0.00009 cy:0.00004 ga:0.00004 fr:0.00212 it:0.00022 sv:0.00116 eu:0.00010 lv:0.00003 sl:0.00003 ast:0.00004 ht:0.00003 en:0.00073 vi:0.00018
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: mme(mme): nl:0.00038 ms:0.00014 an:0.00002 da:0.00200 ca:0.00009 oc:0.00026 et:0.00016 af:0.00027 fi:0.00020 ro:0.00003 de:0.00073 br:0.00011 is:0.00004 no:0.00187 gl:0.00001 mt:0.00015 cy:0.00003 ga:0.00002 fr:0.00107 it:0.00021 sv:0.00053 eu:0.00009 lv:0.00002 sl:0.00002 ast:0.00002 ht:0.00002 en:0.00030 vi:0.00008
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: me (me ): so:0.00023 sk:0.00052 sw:0.00044 nl:0.00043 ms:0.00015 an:0.00008 da:0.00060 ca:0.00051 oc:0.00078 et:0.00070 af:0.00070 fi:0.00021 ro:0.00063 de:0.00051 br:0.00014 tl:0.00018 lt:0.00078 hu:0.00021 is:0.00007 no:0.00049 pt:0.00071 gl:0.00067 mt:0.00004 sq:0.00495 cy:0.00007 ga:0.00014 fr:0.00244 it:0.00174 tr:0.00079 pl:0.00014 cs:0.00021 hr:0.00122 sv:0.00014 eu:0.00035 id:0.00028 lv:0.00028 sl:0.00057 ast:0.00067 ht:0.00070 es:0.00021 en:0.00135 vi:0.00028
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  ci( ci): so:0.00043 sk:0.00034 nl:0.00033 ms:0.00009 an:0.00112 da:0.00013 ca:0.00085 oc:0.00025 ro:0.00037 br:0.00001 lt:0.00012 hu:0.00017 pt:0.00148 gl:0.00075 sq:0.00167 cy:0.00006 ga:0.00034 fr:0.00046 it:0.00112 tr:0.00021 pl:0.00066 hr:0.00025 sv:0.00023 lv:0.00113 sl:0.00010 ast:0.00094 ht:0.00002 es:0.00093 en:0.00035 vi:0.00002
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: ci (ci ): sk:0.00098 ms:0.00005 an:0.00002 ca:0.00022 oc:0.00008 et:0.00003 ro:0.00048 br:0.00005 hu:0.00016 is:0.00001 gl:0.00001 mt:0.00004 sq:0.00012 cy:0.00006 ga:0.00011 it:0.00060 tr:0.00063 pl:0.00175 cs:0.00118 hr:0.00145 lv:0.00008 sl:0.00048 ast:0.00001
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  ça( \u00e7a): tr:0.00051
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: ça (\u00e7a ): an:0.00004 ca:0.00034 oc:0.00084 pt:0.00046 tr:0.00043
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: ==> [DetectedLanguage[fr:0.9999398969248714]]
+Sep 05, 2016 10:51:33 AM org.apache.tika.server.resource.LanguageResource detect
+INFO: Detecting language for incoming resource: [fr]
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: RESPONSE /language/string  200 handled=true
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Enabled read interest SCEP@7ee110f9{l(/127.0.0.1:53759)<->r(/127.0.0.1:9998),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@69a8ecbf,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=2,c=26},r=5}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 0/0
+Sep 05, 2016 10:51:33 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream used: http://localhost:9998/language/string
+Sep 05, 2016 10:51:33 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@5890e8795 pairs: {null: HTTP/1.1 200 OK}{Content-Type: text/plain}{Date: Mon, 05 Sep 2016 14:51:33 GMT}{Content-Length: 2}{Server: Jetty(8.1.15.v20140411)}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 - o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@6e9a5ed8
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@6e9a5ed8
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@6e9a5ed8
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter info
+INFO: stopped o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} - org.apache.cxf.transport.http_jetty.JettyHTTPHandler@6e9a5ed8 as handler
+Sep 05, 2016 10:51:33 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:9998/
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} + org.apache.cxf.transport.http_jetty.JettyHTTPHandler@359df09a as handler
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 + o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@359df09a
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@359df09a
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@359df09a
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/language/string
+Sep 05, 2016 10:51:33 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/language/string)
+Sep 05, 2016 10:51:33 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 05, 2016 10:51:33 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@6d60fe409 pairs: {PUT /language/string HTTP/1.1: null}{Content-Type: text/plain}{Accept: text/plain}{User-Agent: Apache CXF 3.0.3}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}{Content-Length: 16}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 234/234
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: REQUEST /language/string on AsyncHttpConnection@69a8ecbf,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=2,l=2,c=16},r=6
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: scope null||/language/string @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:33 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: context=||/language/string @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: T(T): so:0.00114 sk:0.00166 sw:0.00394 nl:0.00199 ms:0.00422 an:0.00178 da:0.00201 he:0.00055 bg:0.00037 ca:0.00191 oc:0.00116 et:0.00274 af:0.00152 fi:0.00243 ro:0.00187 de:0.00279 el:0.00042 br:0.00167 tl:0.00256 lt:0.00182 hu:0.00178 is:0.00117 no:0.00229 pt:0.00192 ta:0.00029 gl:0.00221 mt:0.00230 sq:0.00199 cy:0.00272 uk:0.00020 ml:0.00027 bn:0.00030 mk:0.00031 ga:0.00431 fr:0.00178 it:0.00178 te:0.00033 tr:0.00303 ru:0.00041 pa:0.00040 pl:0.00159 th:0.00054 cs:0.00169 hr:0.00208 sv:0.00230 eu:0.00155 id:0.00357 lv:0.00214 sl:0.00135 ast:0.00184 ht:0.00122 es:0.00188 en:0.00537 kn:0.00013 vi:0.00758
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: h(h): so:0.03329 sk:0.02191 sw:0.02468 nl:0.02061 ms:0.02768 an:0.00977 da:0.01237 he:0.00140 bg:0.00109 ca:0.00592 oc:0.01118 et:0.01589 af:0.01137 fi:0.01576 ro:0.00572 de:0.03587 el:0.00121 br:0.03310 tl:0.01365 lt:0.00251 hu:0.01199 is:0.01515 no:0.01110 pt:0.00985 ta:0.00116 gl:0.00988 mt:0.01334 sq:0.04204 cy:0.03061 uk:0.00052 ml:0.00178 bn:0.00154 mk:0.00097 ga:0.06855 fr:0.01044 it:0.00811 gu:0.00017 te:0.00225 tr:0.00934 ru:0.00081 pa:0.00224 pl:0.01244 th:0.00158 cs:0.02293 hr:0.00958 sv:0.01725 eu:0.01022 id:0.02535 lv:0.00274 sl:0.01025 ast:0.00536 ht:0.00901 es:0.00680 en:0.03884 kn:0.00085 vi:0.06790
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: i(i): so:0.07031 sk:0.05515 sw:0.12530 nl:0.07384 ms:0.06943 an:0.07445 da:0.06337 he:0.00387 bg:0.00358 ca:0.07640 oc:0.06326 et:0.09861 af:0.09125 fi:0.10400 ro:0.10225 de:0.08646 el:0.00338 br:0.05085 tl:0.07672 lt:0.12817 hu:0.04631 is:0.06911 no:0.06457 pt:0.06976 ta:0.00278 gl:0.06462 mt:0.11371 sq:0.08725 cy:0.06166 uk:0.00149 ml:0.00330 bn:0.00339 mk:0.00303 ga:0.09907 fr:0.07156 it:0.10707 gu:0.00036 te:0.00407 tr:0.08543 ru:0.00215 pa:0.00477 pl:0.08308 th:0.00411 cs:0.04603 hr:0.09735 sv:0.06199 eu:0.08227 id:0.07806 lv:0.09472 sl:0.09033 ast:0.06724 ht:0.07799 es:0.06852 en:0.07883 kn:0.00149 vi:0.05498
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: s(s): so:0.03052 sk:0.04376 sw:0.02681 nl:0.05446 ms:0.03763 an:0.05172 da:0.05864 he:0.00258 bg:0.00247 ca:0.06699 oc:0.06160 et:0.07933 af:0.06644 fi:0.07244 ro:0.03914 de:0.05908 el:0.00204 br:0.03170 tl:0.05381 lt:0.07915 hu:0.05831 is:0.06028 no:0.06217 pt:0.05917 ta:0.00158 gl:0.05720 mt:0.03842 sq:0.05359 cy:0.02669 uk:0.00098 ml:0.00209 bn:0.00215 mk:0.00196 ga:0.04859 fr:0.06753 it:0.04334 gu:0.00024 te:0.00256 tr:0.03437 ru:0.00144 pa:0.00292 pl:0.04049 th:0.00264 cs:0.04537 hr:0.04628 sv:0.06302 eu:0.02746 id:0.04357 lv:0.08457 sl:0.04633 ast:0.05961 ht:0.04684 es:0.05943 en:0.06133 kn:0.00089 vi:0.02074
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: E(E): so:0.00195 sk:0.00085 sw:0.00066 nl:0.00180 ms:0.00073 an:0.00237 da:0.00174 he:0.00034 bg:0.00024 ca:0.00374 oc:0.00166 et:0.00210 af:0.00159 fi:0.00152 ro:0.00186 de:0.00359 el:0.00030 br:0.00270 tl:0.00162 lt:0.00089 hu:0.00170 is:0.00140 no:0.00153 pt:0.00301 ta:0.00017 gl:0.00242 mt:0.00195 sq:0.00147 cy:0.00263 uk:0.00296 ml:0.00021 bn:0.00019 mk:0.00021 ga:0.00146 fr:0.00182 it:0.00120 te:0.00018 tr:0.00185 ru:0.00028 pa:0.00018 pl:0.00108 th:0.00033 cs:0.00087 hr:0.00100 sv:0.00181 eu:0.00291 id:0.00095 lv:0.00103 sl:0.00075 ast:0.00374 ht:0.00151 es:0.00422 en:0.00215 kn:0.00012 vi:0.00073
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: n(n): so:0.04122 sk:0.06134 sw:0.06871 nl:0.09215 ms:0.09130 an:0.08327 da:0.07719 he:0.00346 bg:0.00273 ca:0.06606 oc:0.08444 et:0.05981 af:0.08251 fi:0.08889 ro:0.06918 de:0.09013 el:0.00292 br:0.07640 tl:0.12698 lt:0.05454 hu:0.05306 is:0.07660 no:0.08042 pt:0.05675 ta:0.00237 gl:0.07674 mt:0.05485 sq:0.06471 cy:0.08352 uk:0.00118 ml:0.00275 bn:0.00307 mk:0.00241 ga:0.08334 fr:0.07644 it:0.07420 gu:0.00034 te:0.00351 tr:0.07814 ru:0.00196 pa:0.00437 pl:0.05630 th:0.00371 cs:0.06424 hr:0.06642 sv:0.08177 eu:0.07783 id:0.08997 lv:0.04555 sl:0.07094 ast:0.07365 ht:0.11506 es:0.07367 en:0.07555 kn:0.00134 vi:0.10009
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: g(g): so:0.02290 sk:0.00595 sw:0.01050 nl:0.02360 ms:0.03309 an:0.00996 da:0.03613 he:0.00085 bg:0.00073 ca:0.01373 oc:0.01360 et:0.01776 af:0.02778 fi:0.00451 ro:0.01026 de:0.02307 el:0.00080 br:0.02689 tl:0.08460 lt:0.01643 hu:0.02903 is:0.03531 no:0.03335 pt:0.01299 ta:0.00073 gl:0.01228 mt:0.01374 sq:0.01483 cy:0.03408 uk:0.00033 ml:0.00085 bn:0.00100 mk:0.00060 ga:0.02644 fr:0.01269 it:0.01648 gu:0.00011 te:0.00095 tr:0.01107 ru:0.00051 pa:0.00111 pl:0.01693 th:0.00105 cs:0.00545 hr:0.01721 sv:0.02500 eu:0.01793 id:0.03297 lv:0.01398 sl:0.01436 ast:0.01061 ht:0.01186 es:0.01236 en:0.01679 kn:0.00047 vi:0.03803
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: l(l): so:0.04024 sk:0.03448 sw:0.03192 nl:0.03872 ms:0.03999 an:0.03849 da:0.05038 he:0.00247 bg:0.00205 ca:0.06380 oc:0.05004 et:0.05899 af:0.03727 fi:0.05833 ro:0.05292 de:0.03613 el:0.00199 br:0.03808 tl:0.04450 lt:0.03426 hu:0.06132 is:0.04704 no:0.05088 pt:0.03108 ta:0.00162 gl:0.03753 mt:0.07332 sq:0.02995 cy:0.04985 uk:0.00084 ml:0.00182 bn:0.00200 mk:0.00171 ga:0.04158 fr:0.05330 it:0.06747 gu:0.00018 te:0.00226 tr:0.06782 ru:0.00127 pa:0.00228 pl:0.02537 th:0.00240 cs:0.03905 hr:0.03446 sv:0.04946 eu:0.03638 id:0.03886 lv:0.03472 sl:0.04284 ast:0.06114 ht:0.04204 es:0.05475 en:0.04089 kn:0.00080 vi:0.03202
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  T( T): so:0.00076 sk:0.00144 sw:0.00328 nl:0.00161 ms:0.00362 an:0.00147 da:0.00171 he:0.00038 bg:0.00027 ca:0.00143 oc:0.00095 et:0.00239 af:0.00118 fi:0.00203 ro:0.00156 de:0.00230 el:0.00032 br:0.00136 tl:0.00207 lt:0.00159 hu:0.00143 is:0.00098 no:0.00195 pt:0.00146 ta:0.00022 gl:0.00183 mt:0.00193 sq:0.00148 cy:0.00224 uk:0.00012 ml:0.00019 bn:0.00023 mk:0.00021 ga:0.00346 fr:0.00133 it:0.00140 te:0.00026 tr:0.00265 ru:0.00027 pa:0.00026 pl:0.00126 th:0.00041 cs:0.00147 hr:0.00168 sv:0.00185 eu:0.00135 id:0.00286 lv:0.00183 sl:0.00115 ast:0.00152 ht:0.00099 es:0.00147 en:0.00433 vi:0.00602
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: Th(Th): so:0.00009 sk:0.00015 sw:0.00018 nl:0.00031 ms:0.00022 an:0.00010 da:0.00037 he:0.00015 bg:0.00010 ca:0.00015 oc:0.00009 et:0.00015 af:0.00017 fi:0.00031 ro:0.00023 de:0.00036 br:0.00017 tl:0.00023 lt:0.00008 hu:0.00021 is:0.00015 no:0.00027 pt:0.00018 gl:0.00014 mt:0.00058 sq:0.00016 cy:0.00035 ml:0.00010 bn:0.00011 ga:0.00077 fr:0.00028 it:0.00026 te:0.00013 tr:0.00024 ru:0.00011 pa:0.00011 pl:0.00016 th:0.00018 cs:0.00016 hr:0.00020 sv:0.00036 eu:0.00014 id:0.00023 lv:0.00008 sl:0.00010 ast:0.00012 ht:0.00007 es:0.00022 en:0.00276 vi:0.00247
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: hi(hi): so:0.00355 sk:0.00061 sw:0.00712 nl:0.00153 ms:0.00153 an:0.00207 da:0.00068 he:0.00012 bg:0.00010 ca:0.00080 oc:0.00039 et:0.00183 af:0.00059 fi:0.00149 ro:0.00141 de:0.00182 el:0.00011 br:0.00194 tl:0.00298 lt:0.00034 hu:0.00078 is:0.00061 no:0.00069 pt:0.00075 ta:0.00013 gl:0.00057 mt:0.00216 sq:0.00249 cy:0.00161 ml:0.00014 bn:0.00012 mk:0.00009 ga:0.00227 fr:0.00141 it:0.00143 te:0.00018 tr:0.00159 pa:0.00021 pl:0.00070 th:0.00017 cs:0.00060 hr:0.00078 sv:0.00076 eu:0.00210 id:0.00155 lv:0.00042 sl:0.00050 ast:0.00068 ht:0.00076 es:0.00106 en:0.00341 vi:0.00341
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: is(is): so:0.00577 sk:0.00257 sw:0.00601 nl:0.01106 ms:0.00367 an:0.00276 da:0.00548 he:0.00031 bg:0.00026 ca:0.00417 oc:0.00353 et:0.01366 af:0.00962 fi:0.01554 ro:0.00380 de:0.01305 el:0.00025 br:0.00353 tl:0.00870 lt:0.01063 hu:0.00347 is:0.00351 no:0.00610 pt:0.00550 ta:0.00021 gl:0.00409 mt:0.00691 sq:0.00688 cy:0.00205 uk:0.00011 ml:0.00028 bn:0.00029 mk:0.00029 ga:0.00983 fr:0.00837 it:0.00458 te:0.00036 tr:0.00384 ru:0.00016 pa:0.00029 pl:0.00274 th:0.00035 cs:0.00281 hr:0.00365 sv:0.00550 eu:0.00337 id:0.00537 lv:0.00910 sl:0.00304 ast:0.00367 ht:0.00517 es:0.00439 en:0.01053 kn:0.00013 vi:0.00176
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: s (s ): so:0.00220 sk:0.00323 sw:0.00194 nl:0.01800 ms:0.00470 an:0.01875 da:0.00769 he:0.00093 bg:0.00113 ca:0.02868 oc:0.02582 et:0.01696 af:0.01951 fi:0.00443 ro:0.00300 de:0.01192 el:0.00069 br:0.00890 tl:0.00809 lt:0.03888 hu:0.01277 is:0.00608 no:0.00614 pt:0.01965 ta:0.00054 gl:0.02311 mt:0.00629 sq:0.00687 cy:0.00719 uk:0.00040 ml:0.00079 bn:0.00071 mk:0.00073 ga:0.01821 fr:0.02435 it:0.00239 te:0.00093 tr:0.00301 ru:0.00055 pa:0.00114 pl:0.00215 th:0.00096 cs:0.00308 hr:0.00268 sv:0.00990 eu:0.00391 id:0.00586 lv:0.04087 sl:0.00270 ast:0.02151 ht:0.00571 es:0.02381 en:0.02340 kn:0.00034 vi:0.00485
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  i( i): so:0.00728 sk:0.00139 sw:0.00581 nl:0.01321 ms:0.00323 an:0.00164 da:0.01003 ca:0.00723 oc:0.00113 et:0.00216 af:0.01316 fi:0.00127 ro:0.00292 de:0.01151 br:0.00227 tl:0.00957 lt:0.00699 hu:0.00246 is:0.00056 no:0.01203 pt:0.00196 gl:0.00190 mt:0.00954 sq:0.00647 cy:0.00426 ml:0.00025 bn:0.00013 mk:0.00009 ga:0.01122 fr:0.00219 it:0.00839 te:0.00025 tr:0.00566 pa:0.00042 pl:0.00349 th:0.00012 cs:0.00123 hr:0.01033 sv:0.00984 eu:0.00435 id:0.00299 lv:0.01094 sl:0.00815 ast:0.00201 ht:0.00150 es:0.00214 en:0.01276 kn:0.00011 vi:0.00079
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  E( E): so:0.00038 sk:0.00073 sw:0.00050 nl:0.00147 ms:0.00063 an:0.00195 da:0.00148 he:0.00022 bg:0.00017 ca:0.00308 oc:0.00136 et:0.00183 af:0.00126 fi:0.00126 ro:0.00156 de:0.00301 el:0.00022 br:0.00220 tl:0.00127 lt:0.00077 hu:0.00139 is:0.00118 no:0.00130 pt:0.00240 ta:0.00013 gl:0.00200 mt:0.00163 sq:0.00100 cy:0.00216 ml:0.00014 bn:0.00013 mk:0.00015 ga:0.00107 fr:0.00136 it:0.00091 te:0.00013 tr:0.00162 ru:0.00017 pa:0.00012 pl:0.00084 th:0.00022 cs:0.00075 hr:0.00078 sv:0.00148 eu:0.00250 id:0.00069 lv:0.00089 sl:0.00064 ast:0.00310 ht:0.00122 es:0.00339 en:0.00160 vi:0.00058
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: En(En): nl:0.00027 ms:0.00010 an:0.00020 da:0.00048 ca:0.00026 oc:0.00015 et:0.00009 af:0.00040 fi:0.00017 ro:0.00009 de:0.00033 br:0.00025 tl:0.00028 lt:0.00005 is:0.00015 no:0.00037 pt:0.00011 gl:0.00017 mt:0.00007 cy:0.00026 ga:0.00003 fr:0.00024 it:0.00009 tr:0.00023 sv:0.00034 eu:0.00010 lv:0.00005 sl:0.00006 ast:0.00025 ht:0.00021 es:0.00035 en:0.00041 vi:0.00004
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: ng(ng): so:0.00053 sk:0.00086 sw:0.00440 nl:0.00396 ms:0.01940 an:0.00110 da:0.00576 he:0.00021 bg:0.00016 ca:0.00129 oc:0.00098 et:0.00339 af:0.00542 fi:0.00157 ro:0.00148 de:0.00592 el:0.00018 br:0.00148 tl:0.04989 lt:0.00207 hu:0.00160 is:0.00605 no:0.00613 pt:0.00131 ta:0.00021 gl:0.00114 mt:0.00143 sq:0.00389 cy:0.00440 ml:0.00022 bn:0.00027 mk:0.00013 ga:0.00146 fr:0.00157 it:0.00167 te:0.00025 tr:0.00121 ru:0.00015 pa:0.00037 pl:0.00107 th:0.00038 cs:0.00101 hr:0.00133 sv:0.00632 eu:0.00163 id:0.01879 lv:0.00084 sl:0.00072 ast:0.00162 ht:0.00084 es:0.00128 en:0.00566 kn:0.00013 vi:0.02440
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: gl(gl): so:0.00014 sk:0.00031 sw:0.00009 nl:0.00018 ms:0.00016 an:0.00040 da:0.00057 ca:0.00061 oc:0.00037 et:0.00061 af:0.00018 fi:0.00033 ro:0.00042 de:0.00079 br:0.00030 tl:0.00152 lt:0.00035 hu:0.00034 is:0.00081 no:0.00043 pt:0.00031 gl:0.00034 mt:0.00028 sq:0.00031 cy:0.00164 ga:0.00040 fr:0.00049 it:0.00185 tr:0.00013 pl:0.00030 cs:0.00041 hr:0.00116 sv:0.00046 eu:0.00011 id:0.00014 lv:0.00054 sl:0.00103 ast:0.00052 ht:0.00030 es:0.00061 en:0.00061 vi:0.00010
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: li(li): so:0.00529 sk:0.00396 sw:0.01153 nl:0.00518 ms:0.00439 an:0.00331 da:0.00625 he:0.00027 bg:0.00030 ca:0.00414 oc:0.00241 et:0.01153 af:0.00526 fi:0.00944 ro:0.00560 de:0.00566 el:0.00022 br:0.00374 tl:0.00674 lt:0.00893 hu:0.00285 is:0.00366 no:0.00622 pt:0.00439 ta:0.00019 gl:0.00344 mt:0.01063 sq:0.00640 cy:0.00306 uk:0.00011 ml:0.00025 bn:0.00023 mk:0.00024 ga:0.00423 fr:0.00466 it:0.00730 te:0.00025 tr:0.00688 ru:0.00013 pa:0.00026 pl:0.00411 th:0.00031 cs:0.00442 hr:0.00696 sv:0.00525 eu:0.00385 id:0.00479 lv:0.00499 sl:0.00725 ast:0.00391 ht:0.01028 es:0.00427 en:0.00460 kn:0.00014 vi:0.00171
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: sh(sh): so:0.00418 sk:0.00011 sw:0.00522 nl:0.00041 ms:0.00031 an:0.00017 da:0.00049 ca:0.00024 oc:0.00026 et:0.00027 af:0.00026 fi:0.00031 ro:0.00018 de:0.00047 br:0.00039 tl:0.00043 lt:0.00006 hu:0.00024 is:0.00052 no:0.00056 pt:0.00024 gl:0.00016 mt:0.00011 sq:0.01700 cy:0.00031 ga:0.00076 fr:0.00025 it:0.00026 te:0.00019 tr:0.00019 pa:0.00009 pl:0.00017 cs:0.00016 hr:0.00040 sv:0.00057 eu:0.00020 id:0.00034 lv:0.00008 sl:0.00011 ast:0.00020 ht:0.00004 es:0.00020 en:0.00230 vi:0.00040
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  Th( Th): so:0.00012 sk:0.00022 sw:0.00024 nl:0.00042 ms:0.00026 an:0.00013 da:0.00052 he:0.00022 bg:0.00015 ca:0.00018 oc:0.00011 et:0.00018 af:0.00023 fi:0.00041 ro:0.00027 de:0.00049 br:0.00021 tl:0.00030 lt:0.00009 hu:0.00030 is:0.00018 no:0.00038 pt:0.00025 gl:0.00018 mt:0.00070 sq:0.00022 cy:0.00043 bn:0.00016 ga:0.00095 fr:0.00039 it:0.00034 te:0.00018 tr:0.00033 ru:0.00016 pa:0.00017 pl:0.00021 th:0.00030 cs:0.00024 hr:0.00028 sv:0.00051 eu:0.00016 id:0.00031 lv:0.00009 sl:0.00012 ast:0.00014 ht:0.00009 es:0.00030 en:0.00377 vi:0.00319
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: Thi(Thi): ca:0.00001 oc:0.00002 ro:0.00002 br:0.00001 gl:0.00001 cy:0.00001 ga:0.00010 eu:0.00002 ast:0.00001 en:0.00025 vi:0.00018
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: his(his): so:0.00029 sk:0.00021 sw:0.00023 nl:0.00027 ms:0.00002 an:0.00018 da:0.00027 ca:0.00026 oc:0.00002 et:0.00040 af:0.00013 fi:0.00022 ro:0.00009 de:0.00049 br:0.00004 lt:0.00001 is:0.00001 no:0.00026 pt:0.00024 gl:0.00021 mt:0.00006 sq:0.00029 cy:0.00005 ga:0.00039 fr:0.00034 pl:0.00024 cs:0.00027 sv:0.00023 eu:0.00027 lv:0.00004 sl:0.00003 ast:0.00015 ht:0.00001 es:0.00028 en:0.00104 vi:0.00008
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: is (is ): so:0.00085 sk:0.00044 sw:0.00045 nl:0.00907 ms:0.00193 an:0.00040 da:0.00101 he:0.00018 bg:0.00014 ca:0.00118 oc:0.00136 et:0.00429 af:0.00944 fi:0.00064 ro:0.00048 de:0.00168 br:0.00122 tl:0.00079 lt:0.00863 hu:0.00191 is:0.00069 no:0.00076 pt:0.00232 gl:0.00167 mt:0.00242 sq:0.00035 cy:0.00082 mk:0.00015 ga:0.00681 fr:0.00381 it:0.00050 te:0.00018 tr:0.00047 pa:0.00025 pl:0.00037 th:0.00018 cs:0.00044 hr:0.00040 sv:0.00075 eu:0.00081 id:0.00239 lv:0.00414 sl:0.00035 ast:0.00049 ht:0.00220 es:0.00074 en:0.00816 vi:0.00123
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  is( is): so:0.00186 nl:0.00810 ms:0.00016 an:0.00035 da:0.00021 ca:0.00005 oc:0.00015 et:0.00045 af:0.00846 fi:0.00015 ro:0.00024 de:0.00612 br:0.00086 tl:0.00661 lt:0.00024 hu:0.00119 is:0.00002 no:0.00013 gl:0.00006 mt:0.00197 sq:0.00118 cy:0.00012 ga:0.00326 fr:0.00012 it:0.00030 tr:0.00071 pa:0.00013 pl:0.00020 hr:0.00095 sv:0.00020 eu:0.00008 id:0.00023 lv:0.00005 sl:0.00013 ast:0.00022 ht:0.00014 es:0.00016 en:0.00683 vi:0.00040
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  En( En): nl:0.00036 ms:0.00012 an:0.00025 da:0.00066 ca:0.00032 oc:0.00017 et:0.00011 af:0.00054 fi:0.00022 ro:0.00010 de:0.00045 br:0.00032 tl:0.00037 lt:0.00005 is:0.00019 no:0.00051 pt:0.00016 gl:0.00021 mt:0.00008 cy:0.00031 ga:0.00004 fr:0.00032 it:0.00012 tr:0.00031 sv:0.00047 eu:0.00011 lv:0.00006 sl:0.00007 ast:0.00031 ht:0.00027 es:0.00047 en:0.00056 vi:0.00006
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: Eng(Eng): nl:0.00029 ms:0.00005 an:0.00001 ca:0.00002 et:0.00001 af:0.00048 ro:0.00002 br:0.00001 tl:0.00017 is:0.00013 no:0.00018 mt:0.00001 cy:0.00002 ga:0.00001 sv:0.00014 ast:0.00001 en:0.00043 vi:0.00001
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: ngl(ngl): sk:0.00035 ms:0.00012 an:0.00027 da:0.00024 ca:0.00028 oc:0.00015 et:0.00053 fi:0.00035 ro:0.00038 de:0.00045 br:0.00011 tl:0.00138 lt:0.00019 is:0.00025 no:0.00024 pt:0.00030 gl:0.00028 mt:0.00024 sq:0.00022 cy:0.00016 ga:0.00011 fr:0.00037 it:0.00030 cs:0.00049 hr:0.00041 sv:0.00035 eu:0.00004 lv:0.00015 sl:0.00031 ast:0.00031 ht:0.00005 es:0.00037 en:0.00068 vi:0.00005
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: gli(gli): sk:0.00021 ms:0.00004 an:0.00002 ca:0.00003 oc:0.00003 et:0.00053 ro:0.00010 de:0.00056 br:0.00005 tl:0.00030 lt:0.00016 is:0.00013 gl:0.00005 mt:0.00029 sq:0.00018 cy:0.00008 ga:0.00003 fr:0.00012 it:0.00205 cs:0.00039 sv:0.00024 eu:0.00003 lv:0.00017 sl:0.00014 ast:0.00002 ht:0.00015 en:0.00025 vi:0.00002
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: lis(lis): so:0.00023 sk:0.00034 sw:0.00029 nl:0.00042 ms:0.00049 an:0.00029 da:0.00042 ca:0.00048 oc:0.00024 et:0.00311 af:0.00038 fi:0.00269 ro:0.00044 de:0.00087 br:0.00021 tl:0.00050 lt:0.00100 hu:0.00082 is:0.00058 no:0.00055 pt:0.00051 gl:0.00046 mt:0.00025 sq:0.00067 cy:0.00012 ga:0.00022 fr:0.00132 it:0.00038 tr:0.00055 pl:0.00047 cs:0.00050 hr:0.00031 sv:0.00062 eu:0.00024 id:0.00073 lv:0.00087 sl:0.00033 ast:0.00051 ht:0.00084 es:0.00048 en:0.00113 vi:0.00014
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: ish(ish): so:0.00115 sw:0.00494 nl:0.00014 ms:0.00013 an:0.00005 ca:0.00005 oc:0.00018 et:0.00004 ro:0.00004 de:0.00020 br:0.00014 tl:0.00026 lt:0.00002 is:0.00011 no:0.00014 gl:0.00004 mt:0.00003 sq:0.00354 cy:0.00006 ga:0.00008 hr:0.00013 sv:0.00018 eu:0.00004 lv:0.00002 sl:0.00003 ast:0.00003 en:0.00155 vi:0.00010
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: ==> [DetectedLanguage[en:0.9999999095836573]]
+Sep 05, 2016 10:51:34 AM org.apache.tika.server.resource.LanguageResource detect
+INFO: Detecting language for incoming resource: [en]
+Sep 05, 2016 10:51:34 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream used: http://localhost:9998/language/string
+Sep 05, 2016 10:51:34 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@792b749c5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: text/plain}{Date: Mon, 05 Sep 2016 14:51:34 GMT}{Content-Length: 2}{Server: Jetty(8.1.15.v20140411)}
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: RESPONSE /language/string  200 handled=true
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Enabled read interest SCEP@7ee110f9{l(/127.0.0.1:53759)<->r(/127.0.0.1:9998),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@69a8ecbf,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=2,c=16},r=6}
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 0/0
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 - o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@359df09a
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@359df09a
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@359df09a
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter info
+INFO: stopped o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} - org.apache.cxf.transport.http_jetty.JettyHTTPHandler@359df09a as handler
+Sep 05, 2016 10:51:34 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:9998/
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} + org.apache.cxf.transport.http_jetty.JettyHTTPHandler@72bc6553 as handler
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 + o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@72bc6553
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting org.apache.cxf.transport.http_jetty.JettyHTTPHandler@72bc6553
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@72bc6553
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: starting o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STARTED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:34 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/language/stream
+Sep 05, 2016 10:51:34 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/language/string)
+Sep 05, 2016 10:51:34 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 05, 2016 10:51:34 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@70cf32e39 pairs: {PUT /language/stream HTTP/1.1: null}{Content-Type: text/plain}{Accept: text/plain}{User-Agent: Apache CXF 3.0.3}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}{Content-Length: 27}
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 245/245
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: REQUEST /language/stream on AsyncHttpConnection@69a8ecbf,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=2,l=2,c=27},r=7
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: scope null||/language/stream @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:34 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: context=||/language/stream @ o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: c(c): so:0.00957 sk:0.02453 sw:0.00743 nl:0.01577 ms:0.00648 an:0.04626 da:0.00595 he:0.00151 bg:0.00123 ca:0.03683 oc:0.03271 et:0.00248 af:0.00318 fi:0.00293 ro:0.04139 de:0.02623 el:0.00117 br:0.01044 tl:0.00472 lt:0.00623 hu:0.01108 is:0.00184 no:0.00380 pt:0.03489 ta:0.00107 gl:0.04196 mt:0.00395 sq:0.00595 cy:0.01936 uk:0.00064 ml:0.00141 bn:0.00131 mk:0.00106 ga:0.03577 fr:0.02822 it:0.03852 gu:0.00014 te:0.00143 tr:0.00941 ru:0.00088 pa:0.00172 pl:0.03989 th:0.00178 cs:0.02689 hr:0.01259 sv:0.01380 eu:0.00364 id:0.00636 lv:0.01068 sl:0.00975 ast:0.03952 ht:0.00618 es:0.04143 en:0.03005 kn:0.00065 vi:0.04862
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: e(e): so:0.04780 sk:0.08366 sw:0.03546 nl:0.16956 ms:0.08156 an:0.10470 da:0.14852 he:0.00520 bg:0.00407 ca:0.11263 oc:0.11067 et:0.09812 af:0.15636 fi:0.07864 ro:0.11371 de:0.14656 el:0.00409 br:0.13614 tl:0.03059 lt:0.05798 hu:0.09119 is:0.06628 no:0.14182 pt:0.10892 ta:0.00303 gl:0.10788 mt:0.06696 sq:0.09496 cy:0.08402 uk:0.00176 ml:0.00384 bn:0.00416 mk:0.00350 ga:0.05959 fr:0.13878 it:0.10850 gu:0.00045 te:0.00446 tr:0.08689 ru:0.00291 pa:0.00582 pl:0.07882 th:0.00503 cs:0.08020 hr:0.08477 sv:0.09799 eu:0.10796 id:0.07591 lv:0.06244 sl:0.09948 ast:0.12077 ht:0.08303 es:0.12626 en:0.10672 kn:0.00183 vi:0.03105
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: s(s): so:0.03052 sk:0.04376 sw:0.02681 nl:0.05446 ms:0.03763 an:0.05172 da:0.05864 he:0.00258 bg:0.00247 ca:0.06699 oc:0.06160 et:0.07933 af:0.06644 fi:0.07244 ro:0.03914 de:0.05908 el:0.00204 br:0.03170 tl:0.05381 lt:0.07915 hu:0.05831 is:0.06028 no:0.06217 pt:0.05917 ta:0.00158 gl:0.05720 mt:0.03842 sq:0.05359 cy:0.02669 uk:0.00098 ml:0.00209 bn:0.00215 mk:0.00196 ga:0.04859 fr:0.06753 it:0.04334 gu:0.00024 te:0.00256 tr:0.03437 ru:0.00144 pa:0.00292 pl:0.04049 th:0.00264 cs:0.04537 hr:0.04628 sv:0.06302 eu:0.02746 id:0.04357 lv:0.08457 sl:0.04633 ast:0.05961 ht:0.04684 es:0.05943 en:0.06133 kn:0.00089 vi:0.02074
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: t(t): so:0.01642 sk:0.04628 sw:0.03080 nl:0.06574 ms:0.04386 an:0.05426 da:0.06421 he:0.00277 bg:0.00225 ca:0.05842 oc:0.05188 et:0.05955 af:0.05360 fi:0.07699 ro:0.06403 de:0.06089 el:0.00238 br:0.04484 tl:0.04021 lt:0.04876 hu:0.06412 is:0.05015 no:0.07012 pt:0.04530 ta:0.00233 gl:0.04603 mt:0.07309 sq:0.08168 cy:0.02648 uk:0.00109 ml:0.00323 bn:0.00286 mk:0.00207 ga:0.04494 fr:0.06637 it:0.06674 gu:0.00034 te:0.00378 tr:0.03642 ru:0.00177 pa:0.00415 pl:0.03605 th:0.00322 cs:0.04840 hr:0.03919 sv:0.06687 eu:0.06388 id:0.04715 lv:0.05635 sl:0.04165 ast:0.04440 ht:0.05443 es:0.04422 en:0.07438 kn:0.00160 vi:0.06897
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: o(o): so:0.06359 sk:0.09104 sw:0.04332 nl:0.05421 ms:0.02191 an:0.07744 da:0.05048 he:0.00346 bg:0.00275 ca:0.04628 oc:0.05257 et:0.05157 af:0.05624 fi:0.06152 ro:0.05203 de:0.03113 el:0.00290 br:0.06501 tl:0.05307 lt:0.06608 hu:0.04275 is:0.02425 no:0.05422 pt:0.09403 ta:0.00219 gl:0.10043 mt:0.03910 sq:0.04029 cy:0.05303 uk:0.00128 ml:0.00260 bn:0.00282 mk:0.00265 ga:0.03602 fr:0.05314 it:0.08086 gu:0.00028 te:0.00314 tr:0.02840 ru:0.00211 pa:0.00354 pl:0.07874 th:0.00374 cs:0.07855 hr:0.08069 sv:0.04750 eu:0.05886 id:0.02760 lv:0.04195 sl:0.08235 ast:0.06290 ht:0.08353 es:0.07746 en:0.07156 kn:0.00121 vi:0.03168
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: m(m): so:0.02615 sk:0.02981 sw:0.04075 nl:0.02318 ms:0.03270 an:0.02427 da:0.03032 he:0.00121 bg:0.00154 ca:0.02742 oc:0.02977 et:0.03391 af:0.02034 fi:0.02856 ro:0.02733 de:0.02334 el:0.00111 br:0.02054 tl:0.02835 lt:0.03069 hu:0.02730 is:0.03523 no:0.02983 pt:0.04229 ta:0.00117 gl:0.02456 mt:0.03646 sq:0.03222 cy:0.01936 uk:0.00050 ml:0.00135 bn:0.00127 mk:0.00107 ga:0.02047 fr:0.02589 it:0.02397 gu:0.00014 te:0.00148 tr:0.03000 ru:0.00074 pa:0.00231 pl:0.02561 th:0.00134 cs:0.02900 hr:0.02706 sv:0.03186 eu:0.01569 id:0.03277 lv:0.03289 sl:0.02620 ast:0.02501 ht:0.02788 es:0.02417 en:0.02365 kn:0.00068 vi:0.03043
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: i(i): so:0.07031 sk:0.05515 sw:0.12530 nl:0.07384 ms:0.06943 an:0.07445 da:0.06337 he:0.00387 bg:0.00358 ca:0.07640 oc:0.06326 et:0.09861 af:0.09125 fi:0.10400 ro:0.10225 de:0.08646 el:0.00338 br:0.05085 tl:0.07672 lt:0.12817 hu:0.04631 is:0.06911 no:0.06457 pt:0.06976 ta:0.00278 gl:0.06462 mt:0.11371 sq:0.08725 cy:0.06166 uk:0.00149 ml:0.00330 bn:0.00339 mk:0.00303 ga:0.09907 fr:0.07156 it:0.10707 gu:0.00036 te:0.00407 tr:0.08543 ru:0.00215 pa:0.00477 pl:0.08308 th:0.00411 cs:0.04603 hr:0.09735 sv:0.06199 eu:0.08227 id:0.07806 lv:0.09472 sl:0.09033 ast:0.06724 ht:0.07799 es:0.06852 en:0.07883 kn:0.00149 vi:0.05498
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: ç(\u00e7): ms:0.00002 an:0.00018 ca:0.00088 oc:0.00135 et:0.00002 ro:0.00002 br:0.00008 pt:0.00432 gl:0.00003 mt:0.00004 sq:0.00122 cy:0.00002 ko:0.00001 ga:0.00002 fr:0.00153 tr:0.00752 eu:0.00004 lv:0.00001 sl:0.00003 ast:0.00003 ht:0.00003 vi:0.00002
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: a(a): so:0.26053 sk:0.08308 sw:0.21993 nl:0.07886 ms:0.19474 an:0.12524 da:0.06073 he:0.00459 bg:0.00383 ca:0.11909 oc:0.14390 et:0.11434 af:0.08342 fi:0.11948 ro:0.09881 de:0.05745 el:0.00399 br:0.11836 tl:0.20531 lt:0.11182 hu:0.09303 is:0.09315 no:0.06354 pt:0.11764 ta:0.00369 gl:0.11909 mt:0.12442 sq:0.07228 cy:0.09342 uk:0.00171 ml:0.00384 bn:0.00440 mk:0.00386 ga:0.15303 fr:0.07779 it:0.11026 gu:0.00051 te:0.00562 tr:0.11201 ru:0.00242 pa:0.00499 pl:0.08533 th:0.00489 cs:0.06748 hr:0.11387 sv:0.08693 eu:0.16299 id:0.18963 lv:0.11285 sl:0.10350 ast:0.10758 ht:0.10368 es:0.11263 en:0.08974 kn:0.00161 vi:0.05017
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  c( c): so:0.00331 sk:0.00141 sw:0.00140 nl:0.00130 ms:0.00054 an:0.01111 da:0.00076 he:0.00009 ca:0.00779 oc:0.00702 et:0.00012 af:0.00024 fi:0.00016 ro:0.01201 de:0.00026 br:0.00233 tl:0.00052 lt:0.00072 hu:0.00266 is:0.00009 no:0.00036 pt:0.01089 ta:0.00015 gl:0.01265 mt:0.00012 sq:0.00146 cy:0.00594 ml:0.00027 bn:0.00014 mk:0.00011 ga:0.00795 fr:0.00756 it:0.01104 te:0.00024 tr:0.00054 pa:0.00025 pl:0.00262 th:0.00027 cs:0.00157 hr:0.00097 sv:0.00060 eu:0.00013 id:0.00068 lv:0.00175 sl:0.00064 ast:0.01091 ht:0.00202 es:0.01015 en:0.00565 kn:0.00014 vi:0.01518
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: es(es): so:0.00085 sk:0.00406 sw:0.00145 nl:0.00487 ms:0.00424 an:0.00761 da:0.00594 he:0.00035 bg:0.00027 ca:0.01388 oc:0.01569 et:0.01008 af:0.00838 fi:0.00605 ro:0.00821 de:0.00778 el:0.00029 br:0.00277 tl:0.00312 lt:0.00336 hu:0.00542 is:0.00271 no:0.00616 pt:0.01032 ta:0.00023 gl:0.01189 mt:0.00326 sq:0.00511 cy:0.00378 uk:0.00013 ml:0.00030 bn:0.00033 mk:0.00023 ga:0.00070 fr:0.01869 it:0.00663 te:0.00041 tr:0.00498 ru:0.00021 pa:0.00039 pl:0.00339 th:0.00040 cs:0.00341 hr:0.00280 sv:0.00440 eu:0.00648 id:0.00473 lv:0.00563 sl:0.00338 ast:0.01725 ht:0.00314 es:0.01522 en:0.00776 kn:0.00012 vi:0.00234
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: st(st): so:0.00159 sk:0.00972 sw:0.00118 nl:0.00861 ms:0.00179 an:0.00744 da:0.01036 he:0.00030 bg:0.00022 ca:0.00641 oc:0.00450 et:0.01357 af:0.00947 fi:0.01272 ro:0.01252 de:0.01231 el:0.00024 br:0.00455 tl:0.00284 lt:0.00629 hu:0.00213 is:0.01142 no:0.01032 pt:0.00773 ta:0.00022 gl:0.00728 mt:0.00563 sq:0.00368 cy:0.00242 uk:0.00010 ml:0.00026 bn:0.00028 mk:0.00021 ga:0.00312 fr:0.00959 it:0.00683 te:0.00026 tr:0.00332 ru:0.00018 pa:0.00038 pl:0.00865 th:0.00036 cs:0.01120 hr:0.00938 sv:0.00960 eu:0.00451 id:0.00258 lv:0.00929 sl:0.00957 ast:0.00850 ht:0.00238 es:0.00688 en:0.00753 kn:0.00013 vi:0.00146
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: t (t ): so:0.00047 sk:0.00192 sw:0.00079 nl:0.02211 ms:0.00514 an:0.00495 da:0.01906 he:0.00040 bg:0.00036 ca:0.01232 oc:0.01217 et:0.00814 af:0.01257 fi:0.00514 ro:0.00904 de:0.01639 el:0.00041 br:0.01640 tl:0.00715 lt:0.00120 hu:0.01291 is:0.00741 no:0.01957 pt:0.00105 ta:0.00034 gl:0.00061 mt:0.01081 sq:0.01474 cy:0.00276 uk:0.00018 ml:0.00051 bn:0.00042 mk:0.00025 ga:0.00530 fr:0.02081 it:0.00158 te:0.00061 tr:0.00345 ru:0.00033 pa:0.00053 pl:0.00300 th:0.00049 cs:0.00330 hr:0.00240 sv:0.01466 eu:0.00437 id:0.00590 lv:0.00256 sl:0.00305 ast:0.00062 ht:0.00795 es:0.00114 en:0.01124 kn:0.00029 vi:0.01387
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: co(co): so:0.00057 sk:0.00080 sw:0.00025 nl:0.00108 ms:0.00036 an:0.00753 da:0.00042 he:0.00013 bg:0.00012 ca:0.00487 oc:0.00562 et:0.00020 af:0.00025 fi:0.00030 ro:0.00434 de:0.00032 el:0.00012 br:0.00041 tl:0.00061 lt:0.00016 hu:0.00045 is:0.00015 no:0.00034 pt:0.00915 ta:0.00013 gl:0.01037 mt:0.00032 sq:0.00023 cy:0.00128 ml:0.00021 bn:0.00012 mk:0.00012 ga:0.00128 fr:0.00507 it:0.00931 te:0.00019 tr:0.00029 pa:0.00021 pl:0.00101 th:0.00020 cs:0.00078 hr:0.00045 sv:0.00037 eu:0.00038 id:0.00037 lv:0.00022 sl:0.00076 ast:0.00767 ht:0.00016 es:0.00834 en:0.00406 kn:0.00010 vi:0.00084
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: om(om): so:0.00312 sk:0.00580 sw:0.00118 nl:0.00244 ms:0.00153 an:0.00490 da:0.00604 he:0.00017 bg:0.00013 ca:0.00398 oc:0.00711 et:0.00221 af:0.00303 fi:0.00291 ro:0.00448 de:0.00178 el:0.00012 br:0.00238 tl:0.00122 lt:0.00263 hu:0.00244 is:0.00061 no:0.00793 pt:0.00616 ta:0.00014 gl:0.00493 mt:0.00232 sq:0.00200 cy:0.00077 ml:0.00019 bn:0.00018 mk:0.00014 ga:0.00270 fr:0.00408 it:0.00445 te:0.00015 tr:0.00130 ru:0.00011 pa:0.00031 pl:0.00213 th:0.00025 cs:0.00212 hr:0.00486 sv:0.00701 eu:0.00125 id:0.00157 lv:0.00188 sl:0.00284 ast:0.00379 ht:0.00113 es:0.00403 en:0.00382 vi:0.00083
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: mm(mm): sk:0.00009 sw:0.00021 nl:0.00050 ms:0.00025 an:0.00006 da:0.00242 ca:0.00021 oc:0.00027 et:0.00058 af:0.00044 fi:0.00155 ro:0.00010 de:0.00109 br:0.00078 tl:0.00021 lt:0.00006 hu:0.00035 is:0.00050 no:0.00251 pt:0.00010 gl:0.00006 mt:0.00263 cy:0.00011 ga:0.00010 fr:0.00190 it:0.00064 tr:0.00026 pl:0.00012 cs:0.00010 sv:0.00172 eu:0.00015 id:0.00017 lv:0.00023 sl:0.00007 ast:0.00008 ht:0.00004 es:0.00010 en:0.00085 vi:0.00023
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: me(me): so:0.00182 sk:0.00517 sw:0.00169 nl:0.00753 ms:0.00802 an:0.00340 da:0.00707 he:0.00019 bg:0.00014 ca:0.00537 oc:0.00593 et:0.00482 af:0.00506 fi:0.00404 ro:0.00417 de:0.00414 el:0.00017 br:0.00296 tl:0.00126 lt:0.00379 hu:0.00609 is:0.00312 no:0.00644 pt:0.00486 ta:0.00014 gl:0.00510 mt:0.00327 sq:0.00638 cy:0.00253 ml:0.00016 bn:0.00018 mk:0.00014 ga:0.00075 fr:0.00537 it:0.00535 te:0.00017 tr:0.00433 ru:0.00013 pa:0.00031 pl:0.00176 th:0.00023 cs:0.00310 hr:0.00412 sv:0.00528 eu:0.00486 id:0.00732 lv:0.00340 sl:0.00583 ast:0.00402 ht:0.00315 es:0.00398 en:0.00470 vi:0.00092
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: e (e ): so:0.00807 sk:0.01961 sw:0.00671 nl:0.03213 ms:0.00366 an:0.03076 da:0.02268 he:0.00114 bg:0.00103 ca:0.02342 oc:0.03371 et:0.01968 af:0.04355 fi:0.00605 ro:0.03741 de:0.02097 el:0.00088 br:0.01851 tl:0.00424 lt:0.01071 hu:0.00805 is:0.00143 no:0.02102 pt:0.03444 ta:0.00066 gl:0.03203 mt:0.00296 sq:0.03483 cy:0.00737 uk:0.00038 ml:0.00096 bn:0.00102 mk:0.00080 ga:0.01636 fr:0.05301 it:0.03199 gu:0.00011 te:0.00105 tr:0.01811 ru:0.00072 pa:0.00124 pl:0.01721 th:0.00132 cs:0.01897 hr:0.02699 sv:0.01062 eu:0.01018 id:0.00337 lv:0.00375 sl:0.02604 ast:0.03121 ht:0.03023 es:0.03397 en:0.02753 kn:0.00046 vi:0.00775
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: ci(ci): so:0.00067 sk:0.00348 sw:0.00018 nl:0.00127 ms:0.00085 an:0.01153 da:0.00067 he:0.00012 bg:0.00014 ca:0.00772 oc:0.00680 et:0.00017 af:0.00019 fi:0.00019 ro:0.00338 de:0.00026 el:0.00011 br:0.00033 tl:0.00045 lt:0.00263 hu:0.00147 is:0.00013 no:0.00025 pt:0.00561 gl:0.00770 mt:0.00037 sq:0.00231 cy:0.00036 ml:0.00012 bn:0.00009 mk:0.00010 ga:0.00087 fr:0.00246 it:0.00488 te:0.00012 tr:0.00124 pl:0.00541 th:0.00013 cs:0.00185 hr:0.00358 sv:0.00073 eu:0.00042 id:0.00069 lv:0.00409 sl:0.00223 ast:0.00798 ht:0.00010 es:0.00941 en:0.00223 vi:0.00082
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: i (i ): so:0.00782 sk:0.00629 sw:0.03355 nl:0.00179 ms:0.01750 an:0.00115 da:0.00903 he:0.00020 bg:0.00020 ca:0.00950 oc:0.00426 et:0.01364 af:0.00139 fi:0.01111 ro:0.01851 de:0.00188 el:0.00024 br:0.00279 tl:0.00490 lt:0.01011 hu:0.00955 is:0.01276 no:0.01192 pt:0.00287 ta:0.00022 gl:0.00219 mt:0.02286 sq:0.01628 cy:0.00881 uk:0.00009 ml:0.00015 bn:0.00016 mk:0.00024 ga:0.00489 fr:0.00314 it:0.02266 te:0.00026 tr:0.01290 ru:0.00010 pa:0.00020 pl:0.01117 th:0.00022 cs:0.00692 hr:0.02286 sv:0.00961 eu:0.00609 id:0.02055 lv:0.00858 sl:0.01981 ast:0.00231 ht:0.02546 es:0.00082 en:0.00115 vi:0.01229
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  ç( \u00e7): oc:0.00003 sq:0.00039 tr:0.00174
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: ça(\u00e7a): an:0.00004 ca:0.00047 oc:0.00092 br:0.00002 pt:0.00067 gl:0.00001 mt:0.00002 sq:0.00021 fr:0.00114 tr:0.00095 eu:0.00001 ast:0.00001
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: est(est): sk:0.00211 sw:0.00021 nl:0.00233 ms:0.00026 an:0.00404 da:0.00245 ca:0.00289 oc:0.00093 et:0.00363 af:0.00222 fi:0.00295 ro:0.00698 de:0.00179 br:0.00079 tl:0.00047 lt:0.00082 hu:0.00070 is:0.00127 no:0.00273 pt:0.00276 gl:0.00244 mt:0.00176 sq:0.00035 cy:0.00049 ga:0.00014 fr:0.00861 it:0.00167 tr:0.00051 pl:0.00168 cs:0.00089 hr:0.00156 sv:0.00114 eu:0.00110 id:0.00033 lv:0.00046 sl:0.00169 ast:0.00354 ht:0.00064 es:0.00301 en:0.00185 vi:0.00028
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: st (st ): sk:0.00028 sw:0.00014 nl:0.00143 ms:0.00014 an:0.00013 da:0.00193 ca:0.00094 oc:0.00036 et:0.00465 af:0.00020 fi:0.00015 ro:0.00260 de:0.00730 br:0.00078 tl:0.00021 lt:0.00008 hu:0.00062 is:0.00267 no:0.00234 pt:0.00013 gl:0.00010 mt:0.00054 sq:0.00047 cy:0.00038 ga:0.00038 fr:0.00819 it:0.00042 tr:0.00045 pa:0.00013 pl:0.00136 cs:0.00130 hr:0.00092 sv:0.00176 eu:0.00013 id:0.00019 lv:0.00033 sl:0.00100 ast:0.00007 ht:0.00014 es:0.00017 en:0.00351 vi:0.00022
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  co( co): so:0.00026 nl:0.00068 ms:0.00011 an:0.00649 da:0.00019 ca:0.00482 oc:0.00607 et:0.00004 ro:0.00372 br:0.00014 tl:0.00032 lt:0.00002 is:0.00003 pt:0.00902 gl:0.00981 mt:0.00005 cy:0.00114 ml:0.00020 ga:0.00090 fr:0.00512 it:0.00721 te:0.00017 pa:0.00025 pl:0.00021 th:0.00018 cs:0.00024 eu:0.00004 id:0.00016 lv:0.00003 sl:0.00005 ast:0.00776 ht:0.00011 es:0.00766 en:0.00367 vi:0.00053
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: com(com): so:0.00013 sk:0.00015 nl:0.00047 ms:0.00003 an:0.00379 da:0.00014 ca:0.00226 oc:0.00505 et:0.00002 ro:0.00173 br:0.00004 tl:0.00022 lt:0.00001 is:0.00002 pt:0.00613 gl:0.00290 mt:0.00001 cy:0.00006 ga:0.00045 fr:0.00261 it:0.00322 pa:0.00015 eu:0.00003 lv:0.00003 sl:0.00002 ast:0.00216 ht:0.00005 es:0.00305 en:0.00164 vi:0.00016
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: omm(omm): nl:0.00026 ms:0.00015 an:0.00002 da:0.00164 ca:0.00009 oc:0.00027 et:0.00015 af:0.00034 ro:0.00003 de:0.00050 br:0.00009 tl:0.00018 hu:0.00016 is:0.00009 no:0.00217 gl:0.00003 mt:0.00009 cy:0.00004 ga:0.00004 fr:0.00212 it:0.00022 sv:0.00116 eu:0.00010 lv:0.00003 sl:0.00003 ast:0.00004 ht:0.00003 en:0.00073 vi:0.00018
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: mme(mme): nl:0.00038 ms:0.00014 an:0.00002 da:0.00200 ca:0.00009 oc:0.00026 et:0.00016 af:0.00027 fi:0.00020 ro:0.00003 de:0.00073 br:0.00011 is:0.00004 no:0.00187 gl:0.00001 mt:0.00015 cy:0.00003 ga:0.00002 fr:0.00107 it:0.00021 sv:0.00053 eu:0.00009 lv:0.00002 sl:0.00002 ast:0.00002 ht:0.00002 en:0.00030 vi:0.00008
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: me (me ): so:0.00023 sk:0.00052 sw:0.00044 nl:0.00043 ms:0.00015 an:0.00008 da:0.00060 ca:0.00051 oc:0.00078 et:0.00070 af:0.00070 fi:0.00021 ro:0.00063 de:0.00051 br:0.00014 tl:0.00018 lt:0.00078 hu:0.00021 is:0.00007 no:0.00049 pt:0.00071 gl:0.00067 mt:0.00004 sq:0.00495 cy:0.00007 ga:0.00014 fr:0.00244 it:0.00174 tr:0.00079 pl:0.00014 cs:0.00021 hr:0.00122 sv:0.00014 eu:0.00035 id:0.00028 lv:0.00028 sl:0.00057 ast:0.00067 ht:0.00070 es:0.00021 en:0.00135 vi:0.00028
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  ci( ci): so:0.00043 sk:0.00034 nl:0.00033 ms:0.00009 an:0.00112 da:0.00013 ca:0.00085 oc:0.00025 ro:0.00037 br:0.00001 lt:0.00012 hu:0.00017 pt:0.00148 gl:0.00075 sq:0.00167 cy:0.00006 ga:0.00034 fr:0.00046 it:0.00112 tr:0.00021 pl:0.00066 hr:0.00025 sv:0.00023 lv:0.00113 sl:0.00010 ast:0.00094 ht:0.00002 es:0.00093 en:0.00035 vi:0.00002
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST: ci (ci ): sk:0.00098 ms:0.00005 an:0.00002 ca:0.00022 oc:0.00008 et:0.00003 ro:0.00048 br:0.00005 hu:0.00016 is:0.00001 gl:0.00001 mt:0.00004 sq:0.00012 cy:0.00006 ga:0.00011 it:0.00060 tr:0.00063 pl:0.00175 cs:0.00118 hr:0.00145 lv:0.00008 sl:0.00048 ast:0.00001
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter trace
+FINEST:  ça( \u00e7a): tr:0.00051
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: ==> [DetectedLanguage[fr:0.9999989040641434]]
+Sep 05, 2016 10:51:35 AM org.apache.tika.server.resource.LanguageResource detect
+INFO: Detecting language for incoming resource: [fr]
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: RESPONSE /language/stream  200 handled=true
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Enabled read interest SCEP@7ee110f9{l(/127.0.0.1:53759)<->r(/127.0.0.1:9998),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@69a8ecbf,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=2,c=27},r=7}
+Sep 05, 2016 10:51:35 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream used: http://localhost:9998/language/stream
+Sep 05, 2016 10:51:35 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@5a59ca5e5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: text/plain}{Date: Mon, 05 Sep 2016 14:51:35 GMT}{Content-Length: 2}{Server: Jetty(8.1.15.v20140411)}
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: filled 0/0
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container org.eclipse.jetty.server.handler.ContextHandlerCollection@2e377400 - o.e.j.s.h.ContextHandler{,null} as handler
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@72bc6553
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping org.apache.cxf.transport.http_jetty.JettyHTTPHandler@72bc6553
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED org.apache.cxf.transport.http_jetty.JettyHTTPHandler@72bc6553
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: stopping o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter info
+INFO: stopped o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: STOPPED o.e.j.s.h.ContextHandler{,null}
+Sep 05, 2016 10:51:35 AM org.slf4j.impl.JCLLoggerAdapter debug
+FINE: Container o.e.j.s.h.ContextHandler{,null} - org.apache.cxf.transport.http_jetty.JettyHTTPHandler@72bc6553 as handler

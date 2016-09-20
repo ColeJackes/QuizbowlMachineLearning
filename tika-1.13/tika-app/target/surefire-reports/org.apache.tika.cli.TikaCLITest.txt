@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.tika.cli.TikaCLITest
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.083 sec - in org.apache.tika.cli.TikaCLITest
