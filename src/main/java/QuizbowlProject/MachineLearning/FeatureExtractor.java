@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 public class FeatureExtractor {
 	
-	private String[] historyKeyWords = new String[] {"ruler", "dynasty", "king", "queen"};
-	private String[] literatureKeyWords = new String[] {"novel", "book", "written", "author"};
-	private String[] scienceKeyWords = new String[] {"alpha", "beta", "molecule", "newton"};
+	private String[] historyKeyWords = new String[] {"ruler", "dynasty", "king", "queen", "battle", "war", "president", "election"};
+	private String[] literatureKeyWords = new String[] {"novel", "book", "written", "author", "narrator", "play"};
+	private String[] scienceKeyWords = new String[] {"alpha", "beta", "molecule", "newton", "equals", "discovered", "genetic"};
 	
-	public int size = 17;
+	public int size = 25;
 	
 	public ArrayList<Double> getFeatureArray(String tossup) {
 		ArrayList<Double> arr = new ArrayList<Double>();
@@ -16,7 +16,7 @@ public class FeatureExtractor {
 		tossup = removeExtraSpaces(tossup);
 		ArrayList<String> tossupArray = getTossupArray(tossup);
 		
-		arr.add(averageWordLength(tossupArray));
+//		arr.add(averageWordLength(tossupArray));
 		arr.add(longestWordLength(tossupArray));
 		arr.add(pastTenseVerbs(tossupArray));
 		arr.add(years(tossupArray));
@@ -34,7 +34,7 @@ public class FeatureExtractor {
 		
 		double[] scienceKeyWordsArr = scienceKeyWords(tossupArray);
 		for (int i = 0; i < scienceKeyWordsArr.length; i ++){
-			arr.add(historyKeyWordsArr[i]);	
+			arr.add(scienceKeyWordsArr[i]);	
 		}
 		
 		return arr;
@@ -85,7 +85,7 @@ public class FeatureExtractor {
 		for (int i = 0; i < tossupArray.size(); i++) {
 			String word = tossupArray.get(i);
 			for (int j = 1; j < word.length() - 1; j ++) {
-				if (word.charAt(j) == '.' && Character.isDigit(word.charAt(j - 1)) && Character.isDigit(word.charAt(j + 1))) {
+				if (word.charAt(j) == '.' && Character.isDigit(word.charAt(j - 1)) && Character.isDigit(word.charAt(j + 1)) && word.charAt(j+1) != ' ') {
 					doubles = doubles + 1;
 				}
 			}
