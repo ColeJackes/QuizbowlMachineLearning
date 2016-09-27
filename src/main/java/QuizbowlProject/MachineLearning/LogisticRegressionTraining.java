@@ -24,7 +24,7 @@ public class LogisticRegressionTraining {
 		GetTrainingData getTrainingData = new GetTrainingData();
 		double[][] featureMatrix = getTrainingData.getTossupFeatureMatrix();
 		int[] tossupTypes = getTrainingData.getTrainingDataClassifications();
-		int numFeatures = tossupTypes.length;
+		int numFeatures = featureExtractor.size;
 		
 		//Initial theta
 		for (int i = 1; i <= 4; i ++) {
@@ -32,6 +32,15 @@ public class LogisticRegressionTraining {
 			theta = gradientDescent(theta, featureMatrix, tossupTypes, numFeatures, i, 100, 1);
 			for (int j = 0; j < theta.length; j ++) {
 				System.out.println(theta[j]);
+				if (j == 3) {
+					System.out.println("History");
+				}
+				if (j == 11) {
+					System.out.println("Literature");
+				}
+				if (j == 17) {
+					System.out.println("Science");
+				}
 			}
 			System.out.println();
 			thetas.add(theta);
@@ -89,7 +98,7 @@ public class LogisticRegressionTraining {
 			double[] x = new double[y.length];
 			double[] originalTheta = theta;
 			
-			getCostAndGradient(X, y, theta, 1);
+//			getCostAndGradient(X, y, theta, 1);
 			
 			//Classifying
 			for (int j = 0; j < y.length; j ++) {

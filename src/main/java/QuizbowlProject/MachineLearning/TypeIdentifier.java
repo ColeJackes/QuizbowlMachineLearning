@@ -14,6 +14,10 @@ public class TypeIdentifier {
 		
 		FeatureExtractor featureExtractor = new FeatureExtractor();
 		ArrayList<Double> X = featureExtractor.getFeatureArray(tossup);
+		for (int i = 0; i < X.size(); i ++) {
+			System.out.println(X.get(i));
+		}
+		System.out.println();
 		
 		LogisticRegressionTraining learningAlgorithm = new LogisticRegressionTraining();
 		ArrayList<double[]> thetas = learningAlgorithm.thetas;

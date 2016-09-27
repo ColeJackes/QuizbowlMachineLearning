@@ -21,7 +21,11 @@ public class TossupCollector {
 										 };
 	
 	public static void main(String[] args) throws IOException, TikaException, SAXException {
-		getTossups();
+		ArrayList<String> tossups = getTossups();
+//		for (int i = 0; i < tossups.size(); i ++) {
+//			System.out.println(tossups.get(i));
+//			System.out.println(i);
+//		}
 	}
 	
 	public static ArrayList<String> getTossups () throws IOException, TikaException, SAXException {
@@ -31,87 +35,45 @@ public class TossupCollector {
 		ArrayList<String> tossupArray = new ArrayList<String>();
 		
 		if (directoryListing != null) {
-			for (File child : directoryListing) {
+			for (File file : directoryListing) {
+				
+//			  System.out.println("New file");
 			      
 		      //Instantiating Tika facade class
 			  Tika tika = new Tika();
-			  String pack = tika.parseToString(child);
-			  //System.out.println("Extracted Content: " + pack);
+			  String pack = tika.parseToString(file);
+//			  System.out.println("Extracted Content: " + pack);
 			  
+			  int numTossups = 0;
 			  int startIndex = 0;
 			  int endIndex = 0;
+			  boolean tossupFinished = false;
 			  
-//			  boolean lastQuestionOver = false;
-//			  boolean firstQuestion = true;
-//			  
-//			  for (int i = 0; i < pack.length(); i ++) {
-//				  if (pack.substring(i, i+5).equals("ANSWER")) {
-//					  lastQuestionOver = true;
-//				  }
-//			  }
-//			  
 			  
 			  //Have to be very careful picking out question locations as often numbers identical to question numbers appear in science questions
 			  for (int i = 0; i < pack.length(); i ++) {
-				  if (Character.isDigit(pack.charAt(i))) {
-					  if (Character.getNumericValue(pack.charAt(i)) != 0) {
-			    		  if (pack.charAt(i+1) == '.' && !Character.isDigit(pack.charAt(i+2)) && !Character.isDigit(pack.charAt(i - 1)) && pack.charAt(i - 1) != '-') {
-			    			  //start of tossup 1-9
-			    			  if (startIndex == 0){
-			    				  startIndex = i + 2;
-			    			  }
-			    			  else {
-			    				  endIndex = i + 2;
-			    				  //Add to array
-			    				  tossupArray.add(pack.substring(startIndex, endIndex));
-			    				  startIndex = endIndex;
-			    			  }
-			    		  } 
-			    		  else if (Character.isDigit(pack.charAt(i+1))) {
-			    			  if (!Character.isDigit(pack.charAt(i - 1)) && pack.charAt(i - 2) != '-' && (Character.getNumericValue(pack.charAt(i)) == 1 || Character.getNumericValue(pack.charAt(i)) == 2)) {
-				    			  if (pack.charAt(i+2) == '.' && !Character.isDigit(pack.charAt(i+2))) {
-				    				  //start of tossup 10-24
-				    				  endIndex = i + 2;
-				    				  //Add to array
-				    				  tossupArray.add(pack.substring(startIndex, endIndex));
-				    				  startIndex = endIndex;
-					    			  
-				    			  }	  
-			    			  }
-			    		  }
+				  if (pack.substring(i, i + 3).equals("1. ")) {
+					  startIndex = i + 3;
+				  }
+				  
+				  if (pack.substring(i, i + 6).equals("ANSWER")) {
+					  endIndex = i;
+					  tossupArray.add(pack.substring(startIndex, endIndex));
+//					  System.out.println(pack.substring(startIndex, endIndex));
+					  numTossups ++;
+					  if (numTossups == 21) {
+						  break;
+					  }
+					  tossupFinished = true;
+				  }
+				  
+				  if (tossupFinished) {
+					  if (Character.isDigit(pack.charAt(i)) && pack.charAt(i + 1) == '.' && pack.charAt(i + 2) == ' ' && !Character.isDigit(pack.charAt(i - 2)) && pack.charAt(i-1) != '-' || pack.substring(i, i + 4).equals("TB. ")) {
+						  startIndex = i + 3;
 					  }
 				  }
-				  if (pack.substring(i, i+3).equals("TB.")) {
-					  //Tiebreaker tossup
-    				  endIndex = i + 2;
-    				  //Add to array
-    				  tossupArray.add(pack.substring(startIndex, endIndex));
-    				  startIndex = endIndex; 
-				  }
-				  if (pack.charAt(i) == '[' && pack.charAt(i + 3) == ']') {
-			    		  break;
-			    	  }
-			      }	
-
-			  
 			  }
-			
-//			  for (int i = 0; i < tossupArray.size(); i ++) {
-//				  System.out.println("NNNEEEEWWW TOOSSSSUUUPPP");
-//				  if (tossupTypes[i] == 1) {
-//					  System.out.println("History:");
-//				  }
-//				  else if (tossupTypes[i] == 2) {
-//					  System.out.println("Literature: ");
-//				  }
-//				  else if (tossupTypes[i] == 3) {
-//					  System.out.println("Science: ");
-//				  }
-//				  else if (tossupTypes[i] == 4) {
-//					  System.out.println("Other: ");
-//				  }
-//				  System.out.println(tossupArray.get(i));
-//			  }
+		   }
 		}
 		
 		return tossupArray;
