@@ -14,10 +14,23 @@ public class TossupCollector {
 	//2: Literature
 	//3: Science
 	//4: Other
-	////////////////////////////////////// 1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,TB
-	public static int[] tossupTypes = new int[] { 1,3,2,4,4,3,1,3,4,4,1,2,3,4,2,1,4,4,2,3,2,
-										   4,3,4,2,4,1,4,3,1,4,2,1,4,3,4,4,2,1,3,2,3,
-										   2,4,3,1,3,4,4,2,3,1,4,4,2,1,4,2,1,4,4,3,4,
+	//////////////////////////////////////          1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,TB
+	public static int[] tossupTypes = new int[] { 
+					/*Round01*/					    1,3,2,4,4,3,1,3,4,4,1,2,3,4,2,1,4,4,2,3,2,
+					/*Round02*/					    4,3,4,2,4,1,4,3,1,4,2,1,4,3,4,4,2,1,3,2,3,
+					/*Round03*/					    2,4,3,1,3,4,4,2,3,1,4,4,2,1,4,2,1,4,4,3,4,
+					/*Round04*/						2,4,4,3,2,1,3,4,1,3,4,1,3,2,4,1,4,4,2,3,1,
+					/*Round05*/						4,1,3,1,2,1,3,4,2,4,4,1,3,2,4,1,4,3,2,4,3,
+					/*Round06*/						4,4,4,4,4,3,1,4,3,2,1,4,4,2,1,3,4,1,2,3,2,
+					/*Round07*/						4,4,1,3,4,2,1,4,2,3,1,4,3,4,4,2,1,4,2,3,4,
+					/*Round08*/						4,1,3,2,4,2,4,3,4,1,4,3,4,1,3,2,1,4,2,4,1,
+					/*Round09*/						4,2,1,3,4,1,4,4,4,2,3,1,4,3,1,2,4,1,2,3,3,
+					/*Round10*/						3,2,2,4,1,2,3,4,2,1,4,4,4,1,3,1,4,2,3,1,1,
+					/*Round11*/						1,2,3,4,4,1,3,2,4,1,3,4,2,4,3,2,2,1,4,1,2,
+					/*Round12*/						3,2,1,1,4,4,3,1,2,4,4,3,2,4,1,3,4,2,1,4,3,
+					/*Round13*/						4,4,4,2,3,4,1,4,3,2,1,1,4,2,1,3,4,1,3,2,1,
+					/*Round14*/						1,4,2,4,1,3,4,2,3,4,3,2,4,4,1,4,2,3,1,4,2,
+					/*Round15*/						1,4,2,1,4,3,4,4,3,2,1,4,4,2,1,4,3,2,4,3
 										 };
 	
 	public static void main(String[] args) throws IOException, TikaException, SAXException {
@@ -37,7 +50,7 @@ public class TossupCollector {
 		if (directoryListing != null) {
 			for (File file : directoryListing) {
 				
-//			  System.out.println("New file");
+			  System.out.println("New file");
 			      
 		      //Instantiating Tika facade class
 			  Tika tika = new Tika();
@@ -52,7 +65,7 @@ public class TossupCollector {
 			  
 			  //Have to be very careful picking out question locations as often numbers identical to question numbers appear in science questions
 			  for (int i = 0; i < pack.length(); i ++) {
-				  if (pack.substring(i, i + 3).equals("1. ")) {
+				  if (pack.substring(i, i + 3).equals("1. ") && numTossups == 0) {
 					  startIndex = i + 3;
 				  }
 				  
@@ -70,9 +83,12 @@ public class TossupCollector {
 				  if (tossupFinished) {
 					  if (Character.isDigit(pack.charAt(i)) && pack.charAt(i + 1) == '.' && pack.charAt(i + 2) == ' ' && !Character.isDigit(pack.charAt(i - 2)) && pack.charAt(i-1) != '-' || pack.substring(i, i + 4).equals("TB. ")) {
 						  startIndex = i + 3;
+						  tossupFinished = false;
 					  }
 				  }
 			  }
+			  System.out.println(pack.substring(startIndex, endIndex));
+			  System.out.println(numTossups);
 		   }
 		}
 		

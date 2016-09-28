@@ -79,7 +79,6 @@ public class SupportVectorMachineTraining {
 			}
 		}
 		
-		
 		for (int i = 0; i < y.length; i ++) {
 			SparseVector example = new SparseVector(numFeatures);
 			example.values = Xfloat[i];
