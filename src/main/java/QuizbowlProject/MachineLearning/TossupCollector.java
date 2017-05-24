@@ -35,27 +35,22 @@ public class TossupCollector {
 	
 	public static void main(String[] args) throws IOException, TikaException, SAXException {
 		ArrayList<String> tossups = getTossups();
-//		for (int i = 0; i < tossups.size(); i ++) {
-//			System.out.println(tossups.get(i));
-//			System.out.println(i);
-//		}
 	}
 	
 	public static ArrayList<String> getTossups () throws IOException, TikaException, SAXException {
-		
-		File dir = new File("/Users/colejackes/Desktop/Development/MachineLearning/QuizbowlPacks/Training");
+		//Put in a try-catch
+		String filePath = new File("").getAbsolutePath();
+		filePath = filePath.concat("/QuizbowlPacks/Training");
+		File dir = new File(filePath);
+		//File dir = new File("/Users/colejackes/QuizbowlMachineLearning/QuizbowlMachineLearning/QuizbowlPacks/Training");
 		File[] directoryListing = dir.listFiles();
 		ArrayList<String> tossupArray = new ArrayList<String>();
-		
 		if (directoryListing != null) {
 			for (File file : directoryListing) {
-				
-			  System.out.println("New file");
 			      
 		      //Instantiating Tika facade class
 			  Tika tika = new Tika();
 			  String pack = tika.parseToString(file);
-//			  System.out.println("Extracted Content: " + pack);
 			  
 			  int numTossups = 0;
 			  int startIndex = 0;
@@ -72,7 +67,6 @@ public class TossupCollector {
 				  if (pack.substring(i, i + 6).equals("ANSWER")) {
 					  endIndex = i;
 					  tossupArray.add(pack.substring(startIndex, endIndex));
-//					  System.out.println(pack.substring(startIndex, endIndex));
 					  numTossups ++;
 					  if (numTossups == 21) {
 						  break;
@@ -87,8 +81,6 @@ public class TossupCollector {
 					  }
 				  }
 			  }
-			  System.out.println(pack.substring(startIndex, endIndex));
-			  System.out.println(numTossups);
 		   }
 		}
 		

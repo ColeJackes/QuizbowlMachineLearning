@@ -30,19 +30,6 @@ public class LogisticRegressionTraining {
 		for (int i = 1; i <= 4; i ++) {
 			double[] theta = new double[numFeatures];
 			theta = gradientDescent(theta, featureMatrix, tossupTypes, numFeatures, i, 100, 1);
-			for (int j = 0; j < theta.length; j ++) {
-				System.out.println(theta[j]);
-				if (j == 3) {
-					System.out.println("History");
-				}
-				if (j == 11) {
-					System.out.println("Literature");
-				}
-				if (j == 17) {
-					System.out.println("Science");
-				}
-			}
-			System.out.println();
 			thetas.add(theta);
 		}
 		
@@ -59,7 +46,7 @@ public class LogisticRegressionTraining {
 		double[] temp = theta;
 		temp[0] = 0;
 		
-		//Matlab code I wrote for Assignment 3 of Coursera Machine Learning course
+		//Based on the following Matlab code I wrote for Assignment 3 of Coursera Machine Learning course:
 		//J = 1/m*(-y' * log(sigmoid(X * theta)) - (1 - y')*log(1 - sigmoid(X * theta))) + sum(lambda/(2*m).*temp.^2);
 		//grad = 1/m*(sigmoid(X * theta) - y)'*X + (lambda/m).*temp';
 		for (int i = 0; i < X.length; i ++) {
@@ -68,8 +55,6 @@ public class LogisticRegressionTraining {
 				gradient += (1/y.length)*(sigmoid(X[i][j]*theta[j]) - y[i])*X[i][j] + (lambda/y.length)*temp[j];
 			}
 		}
-		
-//		System.out.println("Cost " +cost);
 		
 		costAndGradient[0] = cost;
 		costAndGradient[1] = gradient;
