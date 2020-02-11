@@ -17,14 +17,14 @@
 	<repositories>
 	    <repository>
 	        <id>dev.davidsoergel.com releases</id>
-	        <url>http://dev.davidsoergel.com/nexus/content/repositories/releases</url>
+	        <url>https://dev.davidsoergel.com/nexus/content/repositories/releases</url>
 	        <snapshots>
 	            <enabled>false</enabled>
 	        </snapshots>
 	    </repository>
 	    <repository>
 	        <id>dev.davidsoergel.com snapshots</id>
-	        <url>http://dev.davidsoergel.com/nexus/content/repositories/snapshots</url>
+	        <url>https://dev.davidsoergel.com/nexus/content/repositories/snapshots</url>
 	        <releases>
 	            <enabled>false</enabled>
 	        </releases>
